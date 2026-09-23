@@ -1,6 +1,6 @@
 use supergrep::{
     chunk::{Chunk, ChunkKind},
-    fitting::fit_chunks,
+    fitting::{fit_chunks, fit_chunks_parallel},
     source::{Source, SourceId},
     Result, SupergrepError,
 };
@@ -163,4 +163,26 @@ fn source_mismatch_and_invalid_coordinates_are_rejected_before_fitting() {
     let error = fit_chunks(&[source], &[invalid_range], "q", 20, 4, pair_length).unwrap_err();
     assert!(matches!(error, SupergrepError::Input(_)));
     assert!(error.to_string().contains("invalid UTF-8 byte range"));
+}
+
+#[test]
+fn parallel_fitting_preserves_ranges_order_and_cap_status() {
+    let sources = vec![
+        Source::from_text(SourceId::new(4), "a.rs", "alpha\r\n한글 😀\r\nomega"),
+        Source::from_text(
+            SourceId::new(9),
+            "b.md",
+            "one two three four\nfive six seven",
+        ),
+        Source::from_text(SourceId::new(1), "c.txt", "tail"),
+    ];
+    let chunks = sources.iter().map(full_chunk).collect::<Vec<_>>();
+    for limit in [8, 20] {
+        for cap in [2, 5, 100] {
+            let serial = fit_chunks(&sources, &chunks, "q", limit, cap, pair_length).unwrap();
+            let parallel =
+                fit_chunks_parallel(&sources, &chunks, "q", limit, cap, pair_length).unwrap();
+            assert_eq!(parallel, serial, "pair limit={limit}, chunk cap={cap}");
+        }
+    }
 }

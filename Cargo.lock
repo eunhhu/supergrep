@@ -1282,6 +1282,7 @@ dependencies = [
  "ort",
  "ort-sys",
  "predicates",
+ "rayon",
  "serde",
  "serde_json",
  "sha2",

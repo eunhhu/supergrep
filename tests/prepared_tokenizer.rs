@@ -6,6 +6,10 @@ use std::{
 };
 
 use supergrep::model::{built_in_registry, PairTokenizer, TokenizerContract};
+use tokenizers::{
+    models::wordpiece::WordPiece, pre_tokenizers::bert::BertPreTokenizer,
+    processors::bert::BertProcessing, Tokenizer,
+};
 
 fn text_files(root: &Path, output: &mut Vec<PathBuf>) {
     for entry in fs::read_dir(root).unwrap() {
@@ -15,6 +19,46 @@ fn text_files(root: &Path, output: &mut Vec<PathBuf>) {
             text_files(&path, output);
         } else {
             output.push(path);
+        }
+    }
+}
+
+#[test]
+fn prepared_bert_pair_lengths_match_direct_encoding() {
+    let vocab = [
+        ("[UNK]".to_owned(), 0u32),
+        ("[CLS]".to_owned(), 1),
+        ("[SEP]".to_owned(), 2),
+        ("hello".to_owned(), 3),
+        ("world".to_owned(), 4),
+        ("retry".to_owned(), 5),
+    ];
+    let model = WordPiece::builder().vocab(vocab).build().unwrap();
+    let mut raw = Tokenizer::new(model);
+    raw.with_pre_tokenizer(Some(BertPreTokenizer));
+    raw.with_post_processor(Some(BertProcessing::new(
+        ("[SEP]".to_owned(), 2),
+        ("[CLS]".to_owned(), 1),
+    )));
+    let temporary = tempfile::tempdir().unwrap();
+    let path = temporary.path().join("tokenizer.json");
+    raw.save(&path, false).unwrap();
+    let tokenizer = PairTokenizer::from_file(
+        &path,
+        TokenizerContract {
+            max_pair_tokens: 256,
+            max_query_tokens: 64,
+            pad_id: 0,
+        },
+    )
+    .unwrap();
+    for query in ["hello", "retry world", "한글 😀"] {
+        let prepared = tokenizer.prepare_pair_query(query).unwrap();
+        for passage in ["world", "retry retry", "a longer unknown-token passage", ""] {
+            assert_eq!(
+                prepared.token_count(passage).unwrap(),
+                tokenizer.pair_token_count(query, passage).unwrap()
+            );
         }
     }
 }
