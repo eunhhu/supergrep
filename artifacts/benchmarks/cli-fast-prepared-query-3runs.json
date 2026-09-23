@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "record_type": "cli_benchmark",
+  "model_profile": "compact-multilingual",
+  "mode": "fast",
+  "max_chunks": null,
+  "query_set": {
+    "kind": "jsonl",
+    "path": "/home/eunhhu/work/supergrep/eval/queries.jsonl",
+    "sha256": "fb770df9b76c694bc1aff03b1b3cf4f90b77deffa36225eea88db787eadea9b9",
+    "split": "development",
+    "distinct_queries": 3
+  },
+  "binary_sha256": "c7bcfe884249a90c249d57897a65e94456e12f8ef35887e3e21fc9999e0b4ae3",
+  "host": {
+    "machine": "aarch64",
+    "platform": "Linux-6.18.39+rpt-rpi-2712-aarch64-with-glibc2.41"
+  },
+  "runs_requested": 3,
+  "fresh_process_per_run": true,
+  "first_run_is_strict_cold_disk": false,
+  "rss_method": "sampled Linux /proc/<pid>/status VmHWM at 10ms intervals",
+  "corpus": {
+    "path": "/tmp/supergrep-benchmark.qqoMiC/corpus",
+    "sha256": "b5fb017c0d7caf860f43411e8a962440c9f9d2fce09e793ff56dccd74b966354",
+    "files": 1000,
+    "bytes": 10485760
+  },
+  "first_run": {
+    "run": 1,
+    "query_id": "dev-code-01-en",
+    "query": "Where is the pause enlarged after repeated temporary delivery refusals?",
+    "phase": "initial",
+    "mode": "fast",
+    "model_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "wall_ms": 27523.396239,
+    "sampled_peak_rss_kib": 732368,
+    "model_load_ms": 1667,
+    "tokenization_ms": 66,
+    "inference_ms": 11083,
+    "discovery_ms": 32,
+    "chunking_ms": 11520,
+    "search_ms": 13681,
+    "total_ms": 27144,
+    "chunks_total": 29000,
+    "chunks_evaluated": 128,
+    "scan_complete": true,
+    "partial": false,
+    "scoring_complete": false
+  },
+  "steady_state": {
+    "wall_ms": {
+      "median": 32864.62338,
+      "p95": 36468.193281,
+      "min": 29261.053479,
+      "max": 36468.193281,
+      "sample_count": 2
+    },
+    "sampled_peak_rss_kib": {
+      "median": 731672.0,
+      "p95": 732416.0,
+      "min": 730928.0,
+      "max": 732416.0,
+      "sample_count": 2
+    },
+    "model_load_ms": {
+      "median": 1660.0,
+      "p95": 1663.0,
+      "min": 1657.0,
+      "max": 1663.0,
+      "sample_count": 2
+    },
+    "tokenization_ms": {
+      "median": 68.5,
+      "p95": 72.0,
+      "min": 65.0,
+      "max": 72.0,
+      "sample_count": 2
+    },
+    "inference_ms": {
+      "median": 17069.0,
+      "p95": 20670.0,
+      "min": 13468.0,
+      "max": 20670.0,
+      "sample_count": 2
+    },
+    "discovery_ms": {
+      "median": 32.5,
+      "p95": 33.0,
+      "min": 32.0,
+      "max": 33.0,
+      "sample_count": 2
+    },
+    "chunking_ms": {
+      "median": 10665.5,
+      "p95": 10817.0,
+      "min": 10514.0,
+      "max": 10817.0,
+      "sample_count": 2
+    },
+    "search_ms": {
+      "median": 19837.0,
+      "p95": 23556.0,
+      "min": 16118.0,
+      "max": 23556.0,
+      "sample_count": 2
+    },
+    "total_ms": {
+      "median": 32449.5,
+      "p95": 36031.0,
+      "min": 28868.0,
+      "max": 36031.0,
+      "sample_count": 2
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "query_id": "dev-code-01-en",
+      "query": "Where is the pause enlarged after repeated temporary delivery refusals?",
+      "phase": "initial",
+      "mode": "fast",
+      "model_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+      "wall_ms": 27523.396239,
+      "sampled_peak_rss_kib": 732368,
+      "model_load_ms": 1667,
+      "tokenization_ms": 66,
+      "inference_ms": 11083,
+      "discovery_ms": 32,
+      "chunking_ms": 11520,
+      "search_ms": 13681,
+      "total_ms": 27144,
+      "chunks_total": 29000,
+      "chunks_evaluated": 128,
+      "scan_complete": true,
+      "partial": false,
+      "scoring_complete": false
+    },
+    {
+      "run": 2,
+      "query_id": "dev-code-01-ko",
+      "query": "\uc77c\uc2dc\uc801\uc778 \uc804\ub2ec \uac70\ubd80\uac00 \ubc18\ubcf5\ub420 \ub54c \ub300\uae30 \uc2dc\uac04\uc744 \uc810\uc810 \ub298\ub9ac\ub294 \uacf3\uc740 \uc5b4\ub514\uc778\uac00\uc694?",
+      "phase": "steady_state",
+      "mode": "fast",
+      "model_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+      "wall_ms": 29261.053479,
+      "sampled_peak_rss_kib": 732416,
+      "model_load_ms": 1657,
+      "tokenization_ms": 72,
+      "inference_ms": 13468,
+      "discovery_ms": 32,
+      "chunking_ms": 10817,
+      "search_ms": 16118,
+      "total_ms": 28868,
+      "chunks_total": 29000,
+      "chunks_evaluated": 128,
+      "scan_complete": true,
+      "partial": false,
+      "scoring_complete": false
+    },
+    {
+      "run": 3,
+      "query_id": "dev-code-02-en",
+      "query": "Which rule refuses another sign-in after several recent wrong attempts?",
+      "phase": "steady_state",
+      "mode": "fast",
+      "model_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+      "wall_ms": 36468.193281,
+      "sampled_peak_rss_kib": 730928,
+      "model_load_ms": 1663,
+      "tokenization_ms": 65,
+      "inference_ms": 20670,
+      "discovery_ms": 33,
+      "chunking_ms": 10514,
+      "search_ms": 23556,
+      "total_ms": 36031,
+      "chunks_total": 29000,
+      "chunks_evaluated": 128,
+      "scan_complete": true,
+      "partial": false,
+      "scoring_complete": false
+    }
+  ]
+}

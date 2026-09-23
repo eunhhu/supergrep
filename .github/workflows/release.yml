@@ -1,0 +1,82 @@
+name: ARM64 release
+
+on:
+  push:
+    tags: [v0.1.0]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 90
+    env:
+      CARGO_BUILD_JOBS: 2
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: 1.98.1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Test and build ARM64 binary
+        run: |
+          cargo test --locked -j 2
+          cargo build --release --locked -j 2 --bin supergrep
+      - name: Download and verify pinned ONNX Runtime
+        run: |
+          curl --fail --location --retry 3 --output "$RUNNER_TEMP/onnxruntime.tgz" \
+            https://github.com/microsoft/onnxruntime/releases/download/v1.20.0/onnxruntime-linux-aarch64-1.20.0.tgz
+          printf '%s  %s\n' \
+            b4d7c6e2c45f8edabe5d28e9bc59ec8d5a4a4af36660cda16e94b2ad85f2a52a \
+            "$RUNNER_TEMP/onnxruntime.tgz" | sha256sum --check
+          tar -xzf "$RUNNER_TEMP/onnxruntime.tgz" -C "$RUNNER_TEMP"
+      - name: Package binary with runtime and notices
+        env:
+          SUPERGREP_ORT_LIB: ${{ runner.temp }}/onnxruntime-linux-aarch64-1.20.0/lib/libonnxruntime.so.1.20.0
+        run: bash scripts/package.sh dist
+      - name: Download pinned model and smoke-test bundle offline
+        run: |
+          if ! command -v strace >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y strace
+          fi
+          target/release/supergrep model download compact-multilingual --cache-dir "$RUNNER_TEMP/supergrep-model-cache"
+          bash scripts/test-bundle.sh dist/supergrep-v0.1.0-linux-aarch64.tar.gz "$RUNNER_TEMP/supergrep-model-cache"
+          (cd dist && sha256sum supergrep-v0.1.0-linux-aarch64.tar.gz > SHA256SUMS)
+      - uses: actions/upload-artifact@v6
+        with:
+          name: supergrep-v0.1.0-linux-aarch64
+          path: |
+            dist/supergrep-v0.1.0-linux-aarch64.tar.gz
+            dist/SHA256SUMS
+          if-no-files-found: error
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/tags/v0.1.0'
+    needs: package
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v6
+        with:
+          name: supergrep-v0.1.0-linux-aarch64
+          path: dist
+      - name: Publish verified package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          (cd dist && sha256sum --check SHA256SUMS)
+          gh release create "$GITHUB_REF_NAME" \
+            dist/supergrep-v0.1.0-linux-aarch64.tar.gz dist/SHA256SUMS \
+            --verify-tag --title "supergrep $GITHUB_REF_NAME" \
+            --notes-file docs/release-notes-v0.1.0.md

@@ -13,7 +13,7 @@ use serde_json::{json, Value};
 use supergrep::{
     chunk::{chunk_sources, ChunkConfig},
     discovery::{discover, DiscoveryOptions},
-    fitting::fit_chunks,
+    fitting::fit_chunks_parallel,
     model::{
         built_in_registry, resolve_model_spec, resolve_runtime_library, ModelCache,
         OnnxOptimizationLevel, OnnxScorer, OnnxScorerConfig, TokenizerContract,
@@ -239,7 +239,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 )
             })?;
         let prepared_query = scorer.tokenizer().prepare_pair_query(&query_record.query)?;
-        let fit = fit_chunks(
+        let fit = fit_chunks_parallel(
             &corpus.sources,
             &coarse_chunks.chunks,
             &query_record.query,

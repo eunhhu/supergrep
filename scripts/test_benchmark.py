@@ -24,6 +24,7 @@ class BenchmarkProcessTest(unittest.TestCase):
         fake.write_text(
             "#!/usr/bin/env python3\n"
             "import json, sys\n"
+            "assert sys.argv[-2:] == ['--batch-size', '4']\n"
             "print(json.dumps({'model': {'id': 'compact-multilingual'}, "
             "'mode': 'fast', 'stats': {'timing': {"
             "'model_load_ms': 1, 'tokenization_ms': 1, 'inference_ms': 1, "
@@ -57,7 +58,7 @@ class BenchmarkProcessTest(unittest.TestCase):
             argv = [
                 str(MODULE_PATH), str(fake), str(corpus), "--runs", "2",
                 "--queries-file", str(queries), "--output", str(output),
-                "--timeout-seconds", "5",
+                "--timeout-seconds", "5", "--batch-size", "4",
             ]
             with patch.object(sys, "argv", argv):
                 self.assertEqual(benchmark.main(), 0)
@@ -66,6 +67,7 @@ class BenchmarkProcessTest(unittest.TestCase):
             self.assertEqual([run["query_id"] for run in result["runs"]], ["q1", "q2"])
             self.assertEqual([run["query"] for run in result["runs"]], ["where is retry?", "어떤 설정이 적용되나?"])
             self.assertTrue(all(run["wall_ms"] > 0 for run in result["runs"]))
+            self.assertEqual(result["batch_size"], 4)
 
 
 if __name__ == "__main__":

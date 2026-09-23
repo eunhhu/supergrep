@@ -320,3 +320,50 @@
   `cargo test --locked -j 1` 통과: Rust 79 passed / 1 opt-in ignored.
   Python benchmark 회귀 1개도 통과했고, 원본 및 268파일 확장 fixture의
   manifest 검사가 각각 통과했다.
+
+## 정확한 토큰 fitting 병렬화 (2026-09-23)
+
+- 모델 청크 fitting은 기존에 최대 29,000개 청크마다 동일 질의를 다시
+  검증·토큰화했다. `PreparedPairQuery`가 질의를 한 번 준비하고, 각
+  passage의 정확한 pair 길이를 pinned tokenizer의 post-processor로
+  계산하도록 변경했다. 원래 모델의 90개 평가 질의와 전체 fixture 파일 및
+  BERT WordPiece fixture에서 기존 직접 pair 길이와 일치했다.
+- 독립 초기 청크의 pair 길이를 Rayon으로 병렬 계산한다. 결과는 원래
+  source/byte 순서로 소비하고, 길이 초과 청크는 이전과 같은 분할 경로를
+  사용한다. source ID lookup도 반복 선형 탐색에서 hash lookup으로
+  바꿨다. UTF-8·CRLF 분할과 청크 상한에 대한 직렬/병렬 동치 테스트가
+  통과했다.
+- 고정 holdout 40질의를 수정한 release evaluator로 재실행했다.
+  `artifacts/evaluation/compact-multilingual-holdout-parallel.jsonl`과 기존
+  `compact-multilingual-holdout.jsonl`의 SHA-256은 모두
+  `5f773503dc107a9eb512d927efedecbee02624396e6c154ea82008f776514b59`다.
+  따라서 이 변경으로 청크 범위·후보·점수·순위가 바뀌지 않았다.
+- 같은 10 MiB/1,000파일, 같은 21개 development 질의의 새 측정은
+  chunking median 11.405→5.019초, CLI wall median 26.615→21.580초였다.
+  inference median은 10.501→11.665초로 이 실행에서 오히려 높았고,
+  wall p95도 31.630→36.346초로 악화했다. RSS p95는 736,336 KiB로
+  여전히 1.5 GiB 이하이다. OS 부하를 통제하지 않은 다른 시점의 실행이라
+  p95 변화의 원인을 구현에 단정하지 않는다. 원시 실행 21회:
+  `artifacts/benchmarks/cli-fast-parallel-fitting-varied-10MiB-1000files.json`.
+  15초 전체 실행과 10초 추론 목표는 여전히 미달이다.
+- 같은 release binary와 고정 corpus의 첫 세 development 질의에서
+  `--batch-size 4`를 별도로 측정했다. inference는 20.056/22.013/13.052초로,
+  batch 1의 10.471/12.123/10.107초보다 모두 느렸다. 기존 개발 질의
+  품질 비교도 batch 4를 기본값으로 채택할 근거가 없으므로 batch 1을
+  유지한다. `artifacts/benchmarks/cli-fast-parallel-batch4-3runs.json`.
+- `cargo fmt --all --check`, `cargo clippy --locked --all-targets -j 1 -- -D warnings`,
+  `cargo test --locked -j 1`가 통과했다. pinned tokenizer의 별도 opt-in
+  동치 테스트도 실제 준비된 모델 cache에서 통과했다. 새 ARM64 bundle은
+  `artifacts/packages-parallel/supergrep-v0.1.0-linux-aarch64.tar.gz`이고,
+  binary SHA-256은
+  `99a87d47e3911c76ffea5f16a643685f18dcde72fb4d09fd8b94e8c8b2323535`,
+  tarball SHA-256은
+  `c97d34ac90e3e1251cc7089938408444b8ac772f9633b0017f37c34d9bdc0941`다.
+  별도 디렉터리에서 실제 모델 검색, byte/line 및 network syscall 부재
+  검증이 통과했다. 새 변경의 명령·exit·hash 증거는
+  `artifacts/validation/parallel-fitting-2026-09-23.md`와
+  `artifacts/validation/parallel-bundle-smoke.log`에 있다.
+- 사용자 범위 결정: 측정된 지연과 대형 corpus의 한국어 fast 후보 회수율
+  한계를 명시하고 **로컬 v0.1 구현을 완료**한다. 15초/10초 목표를 달성했다고
+  주장하거나 수치를 조정하지 않는다. 공개 배포·원격 push는 이 범위 밖이다.
+  계획의 완료 항목별 근거는 `docs/v0.1-audit.md`에 정리했다.

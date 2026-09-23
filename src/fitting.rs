@@ -7,7 +7,9 @@
 //! subdivides the immutable source range.  It never rewrites passage text:
 //! every fitted result is another byte range in the original [`Source`].
 
-use std::ops::Range;
+use std::{collections::HashMap, ops::Range};
+
+use rayon::prelude::*;
 
 use crate::{
     chunk::Chunk,
@@ -74,8 +76,8 @@ where
         ));
     }
 
-    validate_distinct_source_ids(sources)?;
-    let mut inputs = validate_chunks(sources, chunks)?;
+    let source_indexes = validate_distinct_source_ids(sources)?;
+    let mut inputs = validate_chunks(sources, chunks, &source_indexes)?;
     inputs.sort_by_key(|input| {
         (
             input.source_index,
@@ -111,6 +113,87 @@ where
     Ok(report)
 }
 
+/// Fits independent initial chunks with concurrent exact pair counts while
+/// preserving the serial function's output order, split behavior, and cap.
+/// The counter must be pure: counts may be computed ahead of an output cap.
+pub fn fit_chunks_parallel<F>(
+    sources: &[Source],
+    chunks: &[Chunk],
+    query: &str,
+    max_pair_tokens: usize,
+    max_chunks: usize,
+    pair_token_count: F,
+) -> Result<FitReport>
+where
+    F: Fn(&str, &str) -> Result<usize> + Sync,
+{
+    if max_pair_tokens == 0 || max_chunks == 0 {
+        return fit_chunks(
+            sources,
+            chunks,
+            query,
+            max_pair_tokens,
+            max_chunks,
+            pair_token_count,
+        );
+    }
+    let source_indexes = validate_distinct_source_ids(sources)?;
+    let mut inputs = validate_chunks(sources, chunks, &source_indexes)?;
+    inputs.sort_by_key(|input| {
+        (
+            input.source_index,
+            input.chunk.start_byte,
+            input.chunk.end_byte,
+            input.input_index,
+        )
+    });
+
+    // Every non-empty input yields at least one output, so inputs beyond the
+    // cap cannot be reached.  Validate all source ranges first, as serial does.
+    let count = inputs.len().min(max_chunks);
+    let first_counts = inputs[..count]
+        .par_iter()
+        .map(|input| {
+            let source = &sources[input.source_index];
+            let passage = source
+                .slice(input.chunk.byte_range())
+                .expect("validated source range");
+            pair_token_count(query, passage)
+        })
+        .collect::<Vec<_>>();
+
+    let mut report = FitReport::new(chunks.len());
+    for (input, pair_length) in inputs.iter().zip(first_counts) {
+        if report.chunks.len() == max_chunks {
+            report.limit_reached = true;
+            break;
+        }
+        let source = &sources[input.source_index];
+        if pair_length? <= max_pair_tokens {
+            report
+                .chunks
+                .push(fitted_chunk(source, input.chunk, input.chunk.byte_range())?);
+        } else {
+            fit_one_range(
+                source,
+                input.chunk,
+                query,
+                max_pair_tokens,
+                max_chunks,
+                &pair_token_count,
+                &mut report,
+            )?;
+            if report.limit_reached {
+                break;
+            }
+        }
+    }
+    if inputs.len() > count && report.chunks.len() == max_chunks {
+        report.limit_reached = true;
+    }
+    Ok(report)
+}
+
 #[derive(Clone, Copy)]
 struct ValidatedInput<'a> {
     source_index: usize,
@@ -118,27 +201,29 @@ struct ValidatedInput<'a> {
     chunk: &'a Chunk,
 }
 
-fn validate_distinct_source_ids(sources: &[Source]) -> Result<()> {
+fn validate_distinct_source_ids(sources: &[Source]) -> Result<HashMap<SourceId, usize>> {
+    let mut indexes = HashMap::with_capacity(sources.len());
     for (index, source) in sources.iter().enumerate() {
-        if sources[..index]
-            .iter()
-            .any(|previous| previous.id() == source.id())
-        {
+        if indexes.insert(source.id(), index).is_some() {
             return Err(SupergrepError::Input(format!(
                 "source snapshot list contains duplicate source id {}",
                 source.id().get()
             )));
         }
     }
-    Ok(())
+    Ok(indexes)
 }
 
-fn validate_chunks<'a>(sources: &[Source], chunks: &'a [Chunk]) -> Result<Vec<ValidatedInput<'a>>> {
+fn validate_chunks<'a>(
+    sources: &[Source],
+    chunks: &'a [Chunk],
+    source_indexes: &HashMap<SourceId, usize>,
+) -> Result<Vec<ValidatedInput<'a>>> {
     chunks
         .iter()
         .enumerate()
         .map(|(input_index, chunk)| {
-            let source_index = source_index(sources, chunk.source_id).ok_or_else(|| {
+            let source_index = source_indexes.get(&chunk.source_id).copied().ok_or_else(|| {
                 SupergrepError::Input(format!(
                     "chunk {input_index} references source id {} that is absent from the current snapshots",
                     chunk.source_id.get()
@@ -183,10 +268,6 @@ fn validate_chunks<'a>(sources: &[Source], chunks: &'a [Chunk]) -> Result<Vec<Va
             })
         })
         .collect()
-}
-
-fn source_index(sources: &[Source], id: SourceId) -> Option<usize> {
-    sources.iter().position(|source| source.id() == id)
 }
 
 #[allow(clippy::too_many_arguments)]

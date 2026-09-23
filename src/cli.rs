@@ -8,7 +8,7 @@ use serde_json::json;
 use crate::{
     chunk::{chunk_sources, ChunkConfig},
     discovery::{discover, DiscoveryDiagnosticKind, DiscoveryOptions},
-    fitting::fit_chunks,
+    fitting::fit_chunks_parallel,
     model::{
         built_in_registry, resolve_model_spec, resolve_runtime_library, validate_ort_runtime,
         verify_cached, ModelCache, ModelDownloader,
@@ -259,7 +259,7 @@ fn run_search(cli: Cli, query: String) -> Result<u8> {
     let mut fitting_limited = false;
     if let Some(tokenizer) = tokenizer.as_ref() {
         let prepared_query = tokenizer.prepare_pair_query(&query)?;
-        let fit = fit_chunks(
+        let fit = fit_chunks_parallel(
             &discovery.sources,
             &chunks,
             &query,
