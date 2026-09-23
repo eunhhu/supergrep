@@ -221,16 +221,24 @@ measurements are throughput evidence, not a latency guarantee. Raw JSON is in
 [`artifacts/benchmarks/`](../artifacts/benchmarks/) and the exact commands and
 status are in [`docs/progress.md`](progress.md).
 
-The plan allowed at most two development-set attempts before asking for a scope
-decision. The model comparison and batch-4 setting have both been measured;
-the original small-corpus quality targets pass, but the larger-corpus Korean
-candidate sensitivity check fails badly and both latency targets still miss.
-No third speed optimization or target relaxation is made here. The remaining
-decision must address both Korean candidate retrieval and latency. If another
-experiment is authorized, the least quality-invasive
-first probe is to batch/vectorize exact pair-length counting while verifying
-that the complete fitted-chunk set and candidate IDs remain byte-for-byte
-unchanged. Changing default K, chunk length, or batch score composition would
-alter recall/ranking behavior and require a separate explicit tradeoff; the
-already measured batch-4 development result reached Korean Hit@5 0.75, below
-the 0.80 target.
+The later implementation pass reused the model-tokenized query and calculated
+independent exact pair lengths concurrently. The pinned tokenizer's prepared
+pair counts matched direct encoding on the fixed evaluation queries and files;
+the frozen holdout JSONL was byte-for-byte identical after the change. On the
+same 21-query synthetic workload, median chunking fell from 11.405 s to
+5.019 s and process wall time from 26.615 s to 21.580 s. Inference median was
+11.665 s in this later run, and its wall p95 rose to 36.346 s. The 15 s/10 s
+goals still miss, and inference timing varied across runs. Evidence:
+[`parallel fitting benchmark`](../artifacts/benchmarks/cli-fast-parallel-fitting-varied-10MiB-1000files.json).
+
+The original small-corpus quality targets pass, but the larger-corpus Korean
+candidate sensitivity check remains poor. The speed change does not alter
+candidate selection or scoring, so it does not address that recall problem.
+Changing default K, chunk length, or batch score composition would alter
+recall/ranking behavior; the measured batch-4 development result reached
+Korean Hit@5 0.75, below the 0.80 target.
+On the optimized binary, a three-query development timing check with
+`--batch-size 4` also increased inference time to 20.056/22.013/13.052 s,
+versus 10.471/12.123/10.107 s for batch 1 on the corresponding workload.
+This short comparison is not a full percentile estimate, but it gives no
+speed reason to change the frozen batch-1 default.
