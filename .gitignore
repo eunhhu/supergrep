@@ -5,3 +5,5 @@
 /artifacts/**/*.log
 /artifacts/**/*.rss
 /artifacts/**/*.time
+/artifacts/packages-parallel/
+/artifacts/evaluation/compact-multilingual-holdout-parallel.jsonl

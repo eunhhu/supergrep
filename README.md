@@ -78,6 +78,15 @@ cargo build --release --locked
 cargo test --locked
 ```
 
+GitHub Actions runs ARM64 formatting, lint, Rust tests, Python tests, and
+evaluation-manifest checks on pull requests and pushes to `main`. The
+`ARM64 release` workflow can build and smoke-test a downloadable Actions
+artifact on demand. Pushing the `v0.1.0` tag after merging runs the same
+package checks and publishes the tarball and its SHA-256 file as a GitHub
+release. The release job downloads the pinned ONNX Runtime archive and verifies
+its SHA-256 before packaging; it downloads the model only for the smoke test,
+not into the release archive.
+
 For development outside the packaged bundle, set `SUPERGREP_ORT_LIB` to an
 absolute path to the exact ONNX Runtime 1.20.0 library, or place
 `libonnxruntime.so.1.20.0` under `runtime/` next to the executable. A
@@ -147,6 +156,14 @@ steady-state median wall time (31.63 s p95), 10.50 s median inference, and
 query IDs, binary hash, corpus digest, and per-run timings are in
 `artifacts/benchmarks/cli-fast-varied-10MiB-1000files.json`; the generated
 corpus is repetitive and does not represent all real repositories.
+
+Preparing the query once and fitting independent chunks concurrently reduced
+the measured chunking median from 11.41 s to 5.02 s without changing any
+holdout output bytes. On another 21-distinct-query run, steady-state wall
+median was 21.58 s, inference median 11.66 s, and sampled RSS p95 736,336 KiB.
+The 15 s/10 s goals remain unmet; this run's wall p95 was 36.35 s amid variable
+model inference time. The full measurements are in
+`artifacts/benchmarks/cli-fast-parallel-fitting-varied-10MiB-1000files.json`.
 
 Deep throughput at 128, 512, and 2,048 constructed chunks was measured
 separately. The reproducible stress command deliberately applies
