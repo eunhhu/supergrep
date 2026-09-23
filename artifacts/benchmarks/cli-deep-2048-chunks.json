@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "record_type": "cli_benchmark",
+  "model_profile": "compact-multilingual",
+  "mode": "deep",
+  "max_chunks": 2048,
+  "query": "retry delay after repeated network refusals",
+  "runs_requested": 2,
+  "fresh_process_per_run": true,
+  "first_run_is_strict_cold_disk": false,
+  "rss_method": "sampled Linux /proc/<pid>/status VmHWM at 10ms intervals",
+  "corpus": {
+    "path": "/tmp/supergrep-deep-benchmark.yqsUEe/corpus",
+    "files": 1000,
+    "bytes": 10485760
+  },
+  "first_run": {
+    "run": 1,
+    "phase": "initial",
+    "mode": "deep",
+    "wall_ms": 326241.808276,
+    "sampled_peak_rss_kib": 727264,
+    "model_load_ms": 1681,
+    "tokenization_ms": 1039,
+    "inference_ms": 321882,
+    "discovery_ms": 32,
+    "chunking_ms": 792,
+    "search_ms": 323098,
+    "total_ms": 325843,
+    "chunks_total": 2048,
+    "chunks_evaluated": 2048,
+    "scan_complete": false,
+    "partial": true,
+    "scoring_complete": true
+  },
+  "steady_state": {
+    "wall_ms": {
+      "median": 175917.895987,
+      "p95": 175917.895987,
+      "min": 175917.895987,
+      "max": 175917.895987,
+      "sample_count": 1
+    },
+    "sampled_peak_rss_kib": {
+      "median": 728064.0,
+      "p95": 728064.0,
+      "min": 728064.0,
+      "max": 728064.0,
+      "sample_count": 1
+    },
+    "model_load_ms": {
+      "median": 1804.0,
+      "p95": 1804.0,
+      "min": 1804.0,
+      "max": 1804.0,
+      "sample_count": 1
+    },
+    "tokenization_ms": {
+      "median": 824.0,
+      "p95": 824.0,
+      "min": 824.0,
+      "max": 824.0,
+      "sample_count": 1
+    },
+    "inference_ms": {
+      "median": 171699.0,
+      "p95": 171699.0,
+      "min": 171699.0,
+      "max": 171699.0,
+      "sample_count": 1
+    },
+    "discovery_ms": {
+      "median": 32.0,
+      "p95": 32.0,
+      "min": 32.0,
+      "max": 32.0,
+      "sample_count": 1
+    },
+    "chunking_ms": {
+      "median": 751.0,
+      "p95": 751.0,
+      "min": 751.0,
+      "max": 751.0,
+      "sample_count": 1
+    },
+    "search_ms": {
+      "median": 172697.0,
+      "p95": 172697.0,
+      "min": 172697.0,
+      "max": 172697.0,
+      "sample_count": 1
+    },
+    "total_ms": {
+      "median": 175530.0,
+      "p95": 175530.0,
+      "min": 175530.0,
+      "max": 175530.0,
+      "sample_count": 1
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "phase": "initial",
+      "mode": "deep",
+      "wall_ms": 326241.808276,
+      "sampled_peak_rss_kib": 727264,
+      "model_load_ms": 1681,
+      "tokenization_ms": 1039,
+      "inference_ms": 321882,
+      "discovery_ms": 32,
+      "chunking_ms": 792,
+      "search_ms": 323098,
+      "total_ms": 325843,
+      "chunks_total": 2048,
+      "chunks_evaluated": 2048,
+      "scan_complete": false,
+      "partial": true,
+      "scoring_complete": true
+    },
+    {
+      "run": 2,
+      "phase": "steady_state",
+      "mode": "deep",
+      "wall_ms": 175917.895987,
+      "sampled_peak_rss_kib": 728064,
+      "model_load_ms": 1804,
+      "tokenization_ms": 824,
+      "inference_ms": 171699,
+      "discovery_ms": 32,
+      "chunking_ms": 751,
+      "search_ms": 172697,
+      "total_ms": 175530,
+      "chunks_total": 2048,
+      "chunks_evaluated": 2048,
+      "scan_complete": false,
+      "partial": true,
+      "scoring_complete": true
+    }
+  ]
+}

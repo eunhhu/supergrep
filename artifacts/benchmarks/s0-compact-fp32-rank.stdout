@@ -1,0 +1,16 @@
+model=.supergrep-dev-models/compact-multilingual-fp32/1427fd652930e4ba29e8149678df786c240d8825/model.onnx
+inputs=["input_ids", "attention_mask"]
+outputs=["logits"]
+optimization=Level1
+load_ms=7378
+tokenization_ms=4
+inference_ms=190
+passage_count=3
+score_batch_size=1
+model_calls=3
+max_sequence_len=39
+rss_kib=876384
+peak_rss_kib=1212608
+score[0]=3.0824065
+score[1]=-7.8468723
+score[2]=-7.0102391

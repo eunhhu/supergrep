@@ -1,0 +1,73 @@
+# Every downloadable artifact must have a source repository, immutable revision,
+# SHA-256, and exact byte size. Tokenizer metadata describes the runtime
+# contract, but the downloader fetches a tokenizer only when it is also listed
+# below as a verified artifact.
+format_version = 1
+
+[[profile]]
+id = "tiny-en"
+repository = "cross-encoder/ms-marco-MiniLM-L6-v2"
+revision = "233902d25c440f23af6f7d6e94d2946bac0bee0a"
+license = "Apache-2.0"
+tokenizer_file = "tokenizer.json"
+tokenizer_family = "bert-wordpiece"
+tokenizer_pad_token_id = 0
+max_pair_tokens = 256
+max_query_tokens = 64
+tokenizer_model_max_tokens = 512
+model_type = "bert"
+model_architecture = "BertForSequenceClassification"
+type_vocab_size = 2
+runtime_family = "onnxruntime-cpu-dynamic"
+runtime_wrapper_version = "2.0.0-rc.9"
+dynamic_loading = true
+required_inputs = ["input_ids", "attention_mask", "token_type_ids"]
+optional_inputs = []
+expected_output_count = 1
+score_kind = "relevance_logit"
+
+[[profile.artifact]]
+kind = "onnx_model"
+path = "onnx/model_qint8_arm64.onnx"
+sha256 = "3573b6b9593cb2f75987a31815d409ca3dd8808629118fd20451bb1a5d90cec7"
+size_bytes = 23200716
+
+[[profile.artifact]]
+kind = "tokenizer"
+path = "tokenizer.json"
+sha256 = "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+size_bytes = 711396
+
+[[profile]]
+id = "compact-multilingual"
+repository = "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
+revision = "1427fd652930e4ba29e8149678df786c240d8825"
+license = "Apache-2.0"
+tokenizer_file = "tokenizer.json"
+tokenizer_family = "xlm-roberta-sentencepiece"
+tokenizer_pad_token_id = 1
+max_pair_tokens = 256
+max_query_tokens = 64
+tokenizer_model_max_tokens = 514
+model_type = "xlm-roberta"
+model_architecture = "XLMRobertaForSequenceClassification"
+type_vocab_size = 1
+runtime_family = "onnxruntime-cpu-dynamic"
+runtime_wrapper_version = "2.0.0-rc.9"
+dynamic_loading = true
+required_inputs = ["input_ids", "attention_mask"]
+optional_inputs = []
+expected_output_count = 1
+score_kind = "relevance_logit"
+
+[[profile.artifact]]
+kind = "onnx_model"
+path = "onnx/model_qint8_arm64.onnx"
+sha256 = "1825907d6c1a9001ff78124780bbde20a614a8c3df3b63409cf3c72c6fe5c8b4"
+size_bytes = 118620017
+
+[[profile.artifact]]
+kind = "tokenizer"
+path = "tokenizer.json"
+sha256 = "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626"
+size_bytes = 17082660

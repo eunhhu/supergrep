@@ -1,0 +1,10 @@
+[changes]
+approval_count_for_sensitive = 2
+require_owner_for_schema = true
+
+[backup]
+encrypt_archives = true
+key_rotation_days = 90
+
+[display]
+time_zone = "UTC"

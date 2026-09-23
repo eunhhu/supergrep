@@ -1,0 +1,2 @@
+{"item":"north","state":"active","summary":"A portable field kit for teams that need to collect observations without a network connection; it records a local timestamp, a short note, and a checksum, then waits for an operator to choose when the material may leave the device. This deliberately long description keeps the fixture useful for splitting one very long record without relying on a filename clue or a repeated keyword."}
+{"item":"south","state":"retired","summary":"No new requests are accepted after the migration date."}

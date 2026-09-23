@@ -1,0 +1,4141 @@
+{
+  "definition_status": "public_holdout_fulfilled_pending_final_measurement",
+  "fast_deep_comparison": {
+    "deep_minus_fast_hit_at_5": 0.0,
+    "query_pair_count": 20,
+    "top10_intersection_mean": 10.0,
+    "top10_jaccard_mean": 1.0
+  },
+  "groups": {
+    "by_category": {
+      "code": {
+        "deep": {
+          "hit_at_5": 0.8,
+          "mrr_at_10": 0.6922222222222223,
+          "ndcg_at_10": 0.7647914603364917,
+          "query_count": 10
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 10,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 10
+          },
+          "hit_at_5": 0.8,
+          "mrr_at_10": 0.6922222222222223,
+          "ndcg_at_10": 0.7647914603364917,
+          "query_count": 10
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 10
+        }
+      },
+      "configuration": {
+        "deep": {
+          "hit_at_5": 0.75,
+          "mrr_at_10": 0.75,
+          "ndcg_at_10": 0.75,
+          "query_count": 4
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 4,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 4
+          },
+          "hit_at_5": 0.75,
+          "mrr_at_10": 0.75,
+          "ndcg_at_10": 0.75,
+          "query_count": 4
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 4
+        }
+      },
+      "documentation": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.875,
+          "ndcg_at_10": 0.8642911026750043,
+          "query_count": 4
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 4,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 4
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.875,
+          "ndcg_at_10": 0.8642911026750043,
+          "query_count": 4
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 4
+        }
+      },
+      "log_data": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.225,
+          "ndcg_at_10": 0.40876468265396737,
+          "query_count": 2
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 2,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 2
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.225,
+          "ndcg_at_10": 0.40876468265396737,
+          "query_count": 2
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 2
+        }
+      }
+    },
+    "by_language": {
+      "ko": {
+        "deep": {
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.6936111111111111,
+          "ndcg_at_10": 0.7461304189686435,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 20
+          },
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.6936111111111111,
+          "ndcg_at_10": 0.7461304189686435,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 20
+        }
+      }
+    },
+    "by_split": {
+      "development": {
+        "deep": {
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.6936111111111111,
+          "ndcg_at_10": 0.7461304189686435,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 20
+          },
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.6936111111111111,
+          "ndcg_at_10": 0.7461304189686435,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 20
+        }
+      }
+    },
+    "by_tag": {
+      "korean_to_english": {
+        "deep": {
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.6936111111111111,
+          "ndcg_at_10": 0.7461304189686435,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 20
+          },
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.6936111111111111,
+          "ndcg_at_10": 0.7461304189686435,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 20
+        }
+      },
+      "low_lexical_overlap": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.82,
+          "ndcg_at_10": 0.8676784365608412,
+          "query_count": 10
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 10,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 10
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.82,
+          "ndcg_at_10": 0.8676784365608412,
+          "query_count": 10
+        },
+        "lexical": {
+          "hit_at_5": 0.0,
+          "mrr_at_10": 0.0,
+          "ndcg_at_10": 0.0,
+          "query_count": 10
+        }
+      }
+    }
+  },
+  "irrelevant_score_distribution": {},
+  "modes": {
+    "deep": {
+      "hit_at_5": 0.85,
+      "mrr_at_10": 0.6936111111111111,
+      "ndcg_at_10": 0.7461304189686435,
+      "query_count": 20
+    },
+    "fast": {
+      "candidate_coverage": {
+        "candidate_count": {
+          "count": 20,
+          "max": 40.0,
+          "median": 40.0,
+          "min": 40.0,
+          "p95": 40.0
+        },
+        "evidence_recall_macro": 1.0,
+        "hit_rate": 1.0,
+        "query_count": 20
+      },
+      "hit_at_5": 0.85,
+      "mrr_at_10": 0.6936111111111111,
+      "ndcg_at_10": 0.7461304189686435,
+      "query_count": 20
+    },
+    "lexical": {
+      "hit_at_5": 0.0,
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_count": 20
+    }
+  },
+  "per_query": [
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "ember-wait-after-refusal"
+        ],
+        [
+          "telemetry-delivery-deferred"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6590018048024133,
+      "query_id": "dev-code-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -0.5625814199447632
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ember-wait-after-refusal",
+        "telemetry-delivery-deferred"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "ember-wait-after-refusal"
+        ],
+        [
+          "telemetry-delivery-deferred"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6590018048024133,
+      "query_id": "dev-code-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -0.5625814199447632
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-01-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ember-signin-misses"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ember-signin-misses"
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ]
+      ],
+      "top_score": -0.778241753578186
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ember-signin-misses"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ember-signin-misses"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+          "ember-signin-misses"
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ]
+      ],
+      "top_score": -0.778241753578186
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-02-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "lumen-first-delivery"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-03-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ]
+      ],
+      "top_score": -0.11594965308904648
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "lumen-first-delivery"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "lumen-first-delivery"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-03-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ]
+      ],
+      "top_score": -0.11594965308904648
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-03-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "lumen-window"
+        ],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.1111111111111111,
+      "ndcg_at_10": 0.3010299956639812,
+      "query_id": "dev-code-04-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -0.30602431297302246
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "lumen-window"
+      ],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "lumen-window"
+        ],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.1111111111111111,
+      "ndcg_at_10": 0.3010299956639812,
+      "query_id": "dev-code-04-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -0.30602431297302246
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-04-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "cinder-atomic-replace"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-05-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": 0.05596539005637169
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "cinder-atomic-replace"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "cinder-atomic-replace"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-05-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": 0.05596539005637169
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-05-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-06",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "opal-text-blob"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-06-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": -0.6332777738571167
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "opal-text-blob"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-06",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "opal-text-blob"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-06-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": -0.6332777738571167
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-06",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-06-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-07",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "pine-stop-outstanding"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-07-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ]
+      ],
+      "top_score": -0.32764002680778503
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "pine-stop-outstanding"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-07",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "pine-stop-outstanding"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-07-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ]
+      ],
+      "top_score": -0.32764002680778503
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-07",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-07-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-08",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "sable-row-order"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.2,
+      "ndcg_at_10": 0.38685280723454163,
+      "query_id": "dev-code-08-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -0.8102365136146545
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "sable-row-order"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-08",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "sable-row-order"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.2,
+      "ndcg_at_10": 0.38685280723454163,
+      "query_id": "dev-code-08-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -0.8102365136146545
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-08",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-08-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-09",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "river-pass-entry"
+        ],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.1111111111111111,
+      "ndcg_at_10": 0.3010299956639812,
+      "query_id": "dev-code-09-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": -0.8841788172721863
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "river-pass-entry"
+      ],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-09",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "river-pass-entry"
+        ],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.1111111111111111,
+      "ndcg_at_10": 0.3010299956639812,
+      "query_id": "dev-code-09-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": -0.8841788172721863
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-09",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-09-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-10",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ember-shown-header"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-10-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ]
+      ],
+      "top_score": -0.4535289704799652
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ember-shown-header"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "dev-code-10",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ember-shown-header"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-code-10-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ]
+      ],
+      "top_score": -0.4535289704799652
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "dev-code-10",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-code-10-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "dev-config-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-config-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": -0.6009950041770935
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "atlas-dispatcher"
+      ],
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "dev-config-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-config-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": -0.6009950041770935
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "dev-config-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-config-01-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "dev-config-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "copper-sensitive-approvals"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-config-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ]
+      ],
+      "top_score": -0.3058673143386841
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "copper-sensitive-approvals"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "dev-config-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "copper-sensitive-approvals"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-config-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ]
+      ],
+      "top_score": -0.3058673143386841
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "dev-config-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-config-02-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "dev-config-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "fern-completed-retention"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-config-03-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ]
+      ],
+      "top_score": -0.517419695854187
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "fern-completed-retention"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "dev-config-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "fern-completed-retention"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-config-03-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ]
+      ],
+      "top_score": -0.517419695854187
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "dev-config-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-config-03-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "dev-config-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-preview-target"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-config-04-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/lumen.py",
+          485,
+          781
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ]
+      ],
+      "top_score": -0.4928419888019562
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "harbor-preview-target"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "dev-config-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-preview-target"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-config-04-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/lumen.py",
+          485,
+          781
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ]
+      ],
+      "top_score": -0.4928419888019562
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "dev-config-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-config-04-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "dev-data-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "telemetry-delivery-deferred"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.2,
+      "ndcg_at_10": 0.38685280723454163,
+      "query_id": "dev-data-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ]
+      ],
+      "top_score": -0.32959094643592834
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "telemetry-delivery-deferred"
+      ],
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "dev-data-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "telemetry-delivery-deferred"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.2,
+      "ndcg_at_10": 0.38685280723454163,
+      "query_id": "dev-data-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ]
+      ],
+      "top_score": -0.32959094643592834
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": false,
+      "intent_id": "dev-data-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-data-01-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "dev-data-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [
+          "ledger-duplicate-reversal"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.25,
+      "ndcg_at_10": 0.4306765580733931,
+      "query_id": "dev-data-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -0.41251012682914734
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ledger-duplicate-reversal"
+      ],
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "dev-data-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [
+          "ledger-duplicate-reversal"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.25,
+      "ndcg_at_10": 0.4306765580733931,
+      "query_id": "dev-data-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -0.41251012682914734
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": false,
+      "intent_id": "dev-data-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-data-02-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "field-rollout-reversal"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "dev-doc-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ]
+      ],
+      "top_score": -0.5298302173614502
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "field-rollout-reversal"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "field-rollout-reversal"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "dev-doc-01-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ]
+      ],
+      "top_score": -0.5298302173614502
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "dev-doc-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-doc-01-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-export-link",
+          "harbor-remove-export"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 0.8262346571285599,
+      "query_id": "dev-doc-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -0.018381789326667786
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "harbor-export-link",
+        "harbor-remove-export"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-export-link",
+          "harbor-remove-export"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 0.8262346571285599,
+      "query_id": "dev-doc-02-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -0.018381789326667786
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "dev-doc-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-doc-02-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "lantern-outage-escalation"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-doc-03-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ]
+      ],
+      "top_score": -0.46019142866134644
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "lantern-outage-escalation"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "lantern-outage-escalation"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-doc-03-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ]
+      ],
+      "top_score": -0.46019142866134644
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "dev-doc-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-doc-03-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "relay-callback-signature"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-doc-04-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ]
+      ],
+      "top_score": -0.18055559694766998
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "relay-callback-signature"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "dev-doc-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "relay-callback-signature"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "dev-doc-04-ko",
+      "result_count": 10,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ]
+      ],
+      "top_score": -0.18055559694766998
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "dev-doc-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "dev-doc-04-ko",
+      "result_count": 0,
+      "split": "development",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    }
+  ],
+  "public_snapshot_requirement": {
+    "current_public_projects": 2,
+    "current_public_snapshot_intents": 10,
+    "method": "Ten pre-existing holdout code intent IDs were replaced before final holdout measurement with verbatim contiguous excerpts from immutable commits. No development records or product implementation contain answer keys.",
+    "required_distinct_public_projects": 2,
+    "required_minimum_holdout_intents": 10,
+    "status": "fulfilled"
+  },
+  "record_type": "evaluation_summary",
+  "schema_version": 1,
+  "selected_splits": [
+    "development"
+  ]
+}

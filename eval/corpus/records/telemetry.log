@@ -1,0 +1,4 @@
+2026-09-18T10:03:11Z level=warn component=mailer event=delivery.deferred recipient=team@example.test reason="remote mailbox unavailable" retry_at=2026-09-18T10:13:11Z
+2026-09-18T10:04:07Z level=info component=worker event=job.completed job=R-17 elapsed_ms=81
+2026-09-18T10:05:44Z level=warn component=auth event=credential.denied subject=guest-44 reason="signature age exceeded" source=callback
+2026-09-18T10:06:55Z level=info component=cache event=item.evicted key=topic:42 cause="age limit"

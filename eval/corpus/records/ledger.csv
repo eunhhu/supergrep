@@ -1,0 +1,5 @@
+event_id,account,kind,amount_cents,detail
+L-100,orchard,invoice,2400,monthly subscription
+L-101,orchard,reversal,-2400,duplicate charge returned
+L-102,willow,invoice,1800,monthly subscription
+L-103,willow,adjustment,-300,courtesy credit

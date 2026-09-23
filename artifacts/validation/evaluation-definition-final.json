@@ -1,0 +1,20 @@
+{
+  "fixture_files": 28,
+  "public_snapshot_requirement": {
+    "current_public_projects": 2,
+    "current_public_snapshot_intents": 10,
+    "method": "Ten pre-existing holdout code intent IDs were replaced before final holdout measurement with verbatim contiguous excerpts from immutable commits. No development records or product implementation contain answer keys.",
+    "required_distinct_public_projects": 2,
+    "required_minimum_holdout_intents": 10,
+    "status": "fulfilled"
+  },
+  "query_records": 90,
+  "record_type": "evaluation_definition_check",
+  "schema_version": 1,
+  "selected_splits": [
+    "development",
+    "holdout",
+    "irrelevant"
+  ],
+  "valid": true
+}

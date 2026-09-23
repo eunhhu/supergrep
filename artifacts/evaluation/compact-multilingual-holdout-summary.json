@@ -1,0 +1,9660 @@
+{
+  "definition_status": "public_holdout_fulfilled_pending_final_measurement",
+  "fast_deep_comparison": {
+    "deep_minus_fast_hit_at_5": 0.0,
+    "query_pair_count": 40,
+    "top10_intersection_mean": 10.0,
+    "top10_jaccard_mean": 1.0
+  },
+  "groups": {
+    "by_category": {
+      "code": {
+        "deep": {
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.6166666666666667,
+          "ndcg_at_10": 0.6380929753571458,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.8,
+            "hit_rate": 0.8,
+            "query_count": 20
+          },
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.6166666666666667,
+          "ndcg_at_10": 0.6380929753571458,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.35,
+          "mrr_at_10": 0.2733928571428571,
+          "ndcg_at_10": 0.32613939790165414,
+          "query_count": 20
+        }
+      },
+      "configuration": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.8541666666666666,
+          "ndcg_at_10": 0.8913662191964322,
+          "query_count": 8
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 8,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 8
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.8541666666666666,
+          "ndcg_at_10": 0.8913662191964322,
+          "query_count": 8
+        },
+        "lexical": {
+          "hit_at_5": 0.5,
+          "mrr_at_10": 0.40625,
+          "ndcg_at_10": 0.4288345697591741,
+          "query_count": 8
+        }
+      },
+      "documentation": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 0.95655866428214,
+          "query_count": 8
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 8,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 8
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 0.95655866428214,
+          "query_count": 8
+        },
+        "lexical": {
+          "hit_at_5": 0.5,
+          "mrr_at_10": 0.5,
+          "ndcg_at_10": 0.47827933214107,
+          "query_count": 8
+        }
+      },
+      "log_data": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.6666666666666666,
+          "ndcg_at_10": 0.75,
+          "query_count": 4
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 4,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 4
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.6666666666666666,
+          "ndcg_at_10": 0.75,
+          "query_count": 4
+        },
+        "lexical": {
+          "hit_at_5": 0.5,
+          "mrr_at_10": 0.5,
+          "ndcg_at_10": 0.5,
+          "query_count": 4
+        }
+      }
+    },
+    "by_language": {
+      "en": {
+        "deep": {
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7583333333333333,
+          "ndcg_at_10": 0.7728582205350009,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.9,
+            "hit_rate": 0.9,
+            "query_count": 20
+          },
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7583333333333333,
+          "ndcg_at_10": 0.7728582205350009,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.8,
+          "mrr_at_10": 0.6975,
+          "ndcg_at_10": 0.7137346888003976,
+          "query_count": 20
+        }
+      },
+      "ko": {
+        "deep": {
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7333333333333333,
+          "ndcg_at_10": 0.7544047082135737,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.9,
+            "hit_rate": 0.9,
+            "query_count": 20
+          },
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7333333333333333,
+          "ndcg_at_10": 0.7544047082135737,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.05,
+          "mrr_at_10": 0.03839285714285714,
+          "ndcg_at_10": 0.07525026986135422,
+          "query_count": 20
+        }
+      }
+    },
+    "by_split": {
+      "holdout": {
+        "deep": {
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7458333333333333,
+          "ndcg_at_10": 0.7636314643742873,
+          "query_count": 40
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 40,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.9,
+            "hit_rate": 0.9,
+            "query_count": 40
+          },
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7458333333333333,
+          "ndcg_at_10": 0.7636314643742873,
+          "query_count": 40
+        },
+        "lexical": {
+          "hit_at_5": 0.425,
+          "mrr_at_10": 0.36794642857142856,
+          "ndcg_at_10": 0.3944924793308759,
+          "query_count": 40
+        }
+      }
+    },
+    "by_tag": {
+      "english_code": {
+        "deep": {
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.5833333333333333,
+          "ndcg_at_10": 0.6130929753571458,
+          "query_count": 10
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 10,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.8,
+            "hit_rate": 0.8,
+            "query_count": 10
+          },
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.5833333333333333,
+          "ndcg_at_10": 0.6130929753571458,
+          "query_count": 10
+        },
+        "lexical": {
+          "hit_at_5": 0.6,
+          "mrr_at_10": 0.47000000000000003,
+          "ndcg_at_10": 0.5017782560805999,
+          "query_count": 10
+        }
+      },
+      "english_configuration": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 1.0,
+          "query_count": 4
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 4,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 4
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 1.0,
+          "query_count": 4
+        },
+        "lexical": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.8125,
+          "ndcg_at_10": 0.8576691395183482,
+          "query_count": 4
+        }
+      },
+      "english_documentation": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 0.95655866428214,
+          "query_count": 4
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 4,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 4
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 0.95655866428214,
+          "query_count": 4
+        },
+        "lexical": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 0.95655866428214,
+          "query_count": 4
+        }
+      },
+      "english_log_data": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.6666666666666666,
+          "ndcg_at_10": 0.75,
+          "query_count": 2
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 2,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 2
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.6666666666666666,
+          "ndcg_at_10": 0.75,
+          "query_count": 2
+        },
+        "lexical": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 1.0,
+          "query_count": 2
+        }
+      },
+      "fixture_only_holdout": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.875,
+          "ndcg_at_10": 0.8891699533914288,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 20
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 0.875,
+          "ndcg_at_10": 0.8891699533914288,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.5,
+          "mrr_at_10": 0.4625,
+          "ndcg_at_10": 0.46284556076009764,
+          "query_count": 20
+        }
+      },
+      "korean_to_english": {
+        "deep": {
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7333333333333333,
+          "ndcg_at_10": 0.7544047082135737,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.9,
+            "hit_rate": 0.9,
+            "query_count": 20
+          },
+          "hit_at_5": 0.85,
+          "mrr_at_10": 0.7333333333333333,
+          "ndcg_at_10": 0.7544047082135737,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.05,
+          "mrr_at_10": 0.03839285714285714,
+          "ndcg_at_10": 0.07525026986135422,
+          "query_count": 20
+        }
+      },
+      "long_line": {
+        "deep": {
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 1.0,
+          "query_count": 2
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 2,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 1.0,
+            "hit_rate": 1.0,
+            "query_count": 2
+          },
+          "hit_at_5": 1.0,
+          "mrr_at_10": 1.0,
+          "ndcg_at_10": 1.0,
+          "query_count": 2
+        },
+        "lexical": {
+          "hit_at_5": 0.5,
+          "mrr_at_10": 0.5,
+          "ndcg_at_10": 0.5,
+          "query_count": 2
+        }
+      },
+      "low_lexical_overlap": {
+        "deep": {
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.65,
+          "ndcg_at_10": 0.6630929753571457,
+          "query_count": 10
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 10,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.8,
+            "hit_rate": 0.8,
+            "query_count": 10
+          },
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.65,
+          "ndcg_at_10": 0.6630929753571457,
+          "query_count": 10
+        },
+        "lexical": {
+          "hit_at_5": 0.4,
+          "mrr_at_10": 0.2842857142857143,
+          "ndcg_at_10": 0.3576393327675897,
+          "query_count": 10
+        }
+      },
+      "public_snapshot_holdout": {
+        "deep": {
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.6166666666666667,
+          "ndcg_at_10": 0.6380929753571458,
+          "query_count": 20
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 20,
+              "max": 40.0,
+              "median": 40.0,
+              "min": 40.0,
+              "p95": 40.0
+            },
+            "evidence_recall_macro": 0.8,
+            "hit_rate": 0.8,
+            "query_count": 20
+          },
+          "hit_at_5": 0.7,
+          "mrr_at_10": 0.6166666666666667,
+          "ndcg_at_10": 0.6380929753571458,
+          "query_count": 20
+        },
+        "lexical": {
+          "hit_at_5": 0.35,
+          "mrr_at_10": 0.2733928571428571,
+          "ndcg_at_10": 0.32613939790165414,
+          "query_count": 20
+        }
+      }
+    }
+  },
+  "irrelevant_score_distribution": {},
+  "modes": {
+    "deep": {
+      "hit_at_5": 0.85,
+      "mrr_at_10": 0.7458333333333333,
+      "ndcg_at_10": 0.7636314643742873,
+      "query_count": 40
+    },
+    "fast": {
+      "candidate_coverage": {
+        "candidate_count": {
+          "count": 40,
+          "max": 40.0,
+          "median": 40.0,
+          "min": 40.0,
+          "p95": 40.0
+        },
+        "evidence_recall_macro": 0.9,
+        "hit_rate": 0.9,
+        "query_count": 40
+      },
+      "hit_at_5": 0.85,
+      "mrr_at_10": 0.7458333333333333,
+      "ndcg_at_10": 0.7636314643742873,
+      "query_count": 40
+    },
+    "lexical": {
+      "hit_at_5": 0.425,
+      "mrr_at_10": 0.36794642857142856,
+      "ndcg_at_10": 0.3944924793308759,
+      "query_count": 40
+    }
+  },
+  "per_query": [
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-end-trailing-data"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ]
+      ],
+      "top_score": -3.2820136547088623
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-end-trailing-data"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-end-trailing-data"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ]
+      ],
+      "top_score": -3.2820136547088623
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "serde-json-end-trailing-data"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.2,
+      "ndcg_at_10": 0.38685280723454163,
+      "query_id": "holdout-code-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ]
+      ],
+      "top_score": 14.650630557097715
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-end-trailing-data"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -1.784069538116455
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-end-trailing-data"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-end-trailing-data"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -1.784069538116455
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "serde-json-end-trailing-data"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-code-01-ko",
+      "result_count": 8,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ]
+      ],
+      "top_score": 4.020989335030967
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": -5.157569408416748
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-disable-recursion-limit"
+      ],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": -5.157569408416748
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ]
+      ],
+      "top_score": 6.1690121711208965
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "serde-json-disable-recursion-limit"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "holdout-code-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ]
+      ],
+      "top_score": -2.3891193866729736
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-disable-recursion-limit"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "serde-json-disable-recursion-limit"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "holdout-code-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ]
+      ],
+      "top_score": -2.3891193866729736
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "serde-json-disable-recursion-limit"
+        ],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.14285714285714285,
+      "ndcg_at_10": 0.3333333333333333,
+      "query_id": "holdout-code-02-ko",
+      "result_count": 8,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ]
+      ],
+      "top_score": 4.020989335030967
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": 1.7132662534713745
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 0.0,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": 1.7132662534713745
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": 15.214964998369707
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-03-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ]
+      ],
+      "top_score": -0.8589770197868347
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 0.0,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-03-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ]
+      ],
+      "top_score": -0.8589770197868347
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-03-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-error-is-eof"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": 3.0643885135650635
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-error-is-eof"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-error-is-eof"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": 3.0643885135650635
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-error-is-eof"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ]
+      ],
+      "top_score": 20.261372913951867
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-error-is-eof"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-04-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ]
+      ],
+      "top_score": -1.4855440855026245
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-error-is-eof"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "serde-json-error-is-eof"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-04-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ]
+      ],
+      "top_score": -1.4855440855026245
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "serde-json-error-is-eof"
+        ],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.16666666666666666,
+      "ndcg_at_10": 0.3562071871080222,
+      "query_id": "holdout-code-04-ko",
+      "result_count": 8,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ]
+      ],
+      "top_score": 4.020989335030967
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-05",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "serde-json-io-error-kind"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "holdout-code-05-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ]
+      ],
+      "top_score": -0.8305672407150269
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-io-error-kind"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-05",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "serde-json-io-error-kind"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "holdout-code-05-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ]
+      ],
+      "top_score": -0.8305672407150269
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-05",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "serde-json-io-error-kind"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "holdout-code-05-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": 18.71291044477956
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-05-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ]
+      ],
+      "top_score": -1.397365689277649
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "serde-json-io-error-kind"
+      ],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-05-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ]
+      ],
+      "top_score": -1.397365689277649
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "serde-json-io-error-kind"
+        ]
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.125,
+      "ndcg_at_10": 0.3154648767857287,
+      "query_id": "holdout-code-05-ko",
+      "result_count": 8,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          488,
+          971
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          971,
+          1472
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ]
+      ],
+      "top_score": 4.020989335030967
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-06",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-max-depth"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-06-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": -2.0194754600524902
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-max-depth"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-06",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-max-depth"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-06-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": -2.0194754600524902
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-06",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-max-depth"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-06-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ]
+      ],
+      "top_score": 13.209366495161946
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-06",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-max-depth"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-06-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ]
+      ],
+      "top_score": 0.3783568739891052
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-max-depth"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-06",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-max-depth"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-06-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ]
+      ],
+      "top_score": 0.3783568739891052
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-06",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-06-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-07",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-hidden"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-07-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ]
+      ],
+      "top_score": -1.4904907941818237
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-hidden"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-07",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-hidden"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-07-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ]
+      ],
+      "top_score": -1.4904907941818237
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-07",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-07-en",
+      "result_count": 2,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ]
+      ],
+      "top_score": 6.664940674626449
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-07",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-hidden"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-07-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": -1.5481308698654175
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-hidden"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-07",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-hidden"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-07-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": -1.5481308698654175
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-07",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-07-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-08",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-same-filesystem"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-08-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": 3.4973130226135254
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-same-filesystem"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-08",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-same-filesystem"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-08-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": 3.4973130226135254
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-08",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-same-filesystem"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-08-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": 21.42888708939516
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-08",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-same-filesystem"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-08-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": -0.2723155617713928
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-same-filesystem"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-08",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-same-filesystem"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-08-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ]
+      ],
+      "top_score": -0.2723155617713928
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-08",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-08-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-09",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "ripgrep-walk-skip-filesize"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-code-09-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": -3.657560348510742
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-skip-filesize"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-09",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "ripgrep-walk-skip-filesize"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-code-09-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": -3.657560348510742
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-09",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-skip-filesize"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-09-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ]
+      ],
+      "top_score": 7.395474682401851
+    },
+    {
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-09",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-skip-filesize"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-09-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ]
+      ],
+      "top_score": -6.3534417152404785
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "ripgrep-walk-skip-filesize"
+      ],
+      "category": "code",
+      "hit_at_5": true,
+      "intent_id": "holdout-code-09",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "ripgrep-walk-skip-filesize"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-code-09-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ]
+      ],
+      "top_score": -6.3534417152404785
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-09",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-09-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-10",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-10-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ]
+      ],
+      "top_score": -3.0326590538024902
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 0.0,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-10",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-10-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ]
+      ],
+      "top_score": -3.0326590538024902
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-10",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-10-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "english_code"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ]
+      ],
+      "top_score": 18.179397887618958
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-10",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-10-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ]
+      ],
+      "top_score": -3.6257500648498535
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 0.0,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-10",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-10-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ]
+      ],
+      "top_score": -3.6257500648498535
+    },
+    {
+      "category": "code",
+      "hit_at_5": false,
+      "intent_id": "holdout-code-10",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-code-10-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "public_snapshot_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-trace-context"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ]
+      ],
+      "top_score": 0.11592189967632294
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "harbor-trace-context"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-trace-context"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ]
+      ],
+      "top_score": 0.11592189967632294
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-trace-context"
+        ],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-01-en",
+      "result_count": 6,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ]
+      ],
+      "top_score": 12.543779743795188
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-trace-context"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -2.139263868331909
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "harbor-trace-context"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-trace-context"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -2.139263868331909
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "holdout-config-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-config-01-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "copper-backup-encryption"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ]
+      ],
+      "top_score": 0.5294716358184814
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "copper-backup-encryption"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "copper-backup-encryption"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ]
+      ],
+      "top_score": 0.5294716358184814
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "copper-backup-encryption"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-02-en",
+      "result_count": 7,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ]
+      ],
+      "top_score": 8.5725112592587
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "copper-backup-encryption"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "holdout-config-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ]
+      ],
+      "top_score": -2.1481969356536865
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "copper-backup-encryption"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [
+          "copper-backup-encryption"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.5,
+      "ndcg_at_10": 0.6309297535714574,
+      "query_id": "holdout-config-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ]
+      ],
+      "top_score": -2.1481969356536865
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "holdout-config-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-config-02-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "fern-ignore-patterns"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": -4.379325866699219
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "fern-ignore-patterns"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "fern-ignore-patterns"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": -4.379325866699219
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "fern-ignore-patterns"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": 7.270776522290389
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "fern-ignore-patterns"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-03-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ]
+      ],
+      "top_score": -5.459384918212891
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "fern-ignore-patterns"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "fern-ignore-patterns"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-03-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ]
+      ],
+      "top_score": -5.459384918212891
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "holdout-config-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-config-03-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "atlas-maintenance-window"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ]
+      ],
+      "top_score": -5.911301612854004
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "atlas-maintenance-window"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "atlas-maintenance-window"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-config-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ]
+      ],
+      "top_score": -5.911301612854004
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [
+          "atlas-maintenance-window"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.25,
+      "ndcg_at_10": 0.4306765580733931,
+      "query_id": "holdout-config-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_configuration"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ]
+      ],
+      "top_score": 6.928434900206552
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "atlas-maintenance-window"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-config-04-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ]
+      ],
+      "top_score": -1.1393705606460571
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "atlas-maintenance-window"
+      ],
+      "category": "configuration",
+      "hit_at_5": true,
+      "intent_id": "holdout-config-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "atlas-maintenance-window"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-config-04-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ]
+      ],
+      "top_score": -1.1393705606460571
+    },
+    {
+      "category": "configuration",
+      "hit_at_5": false,
+      "intent_id": "holdout-config-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-config-04-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "telemetry-stale-signature"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-data-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_log_data"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -3.4420034885406494
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "telemetry-stale-signature"
+      ],
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "telemetry-stale-signature"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-data-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_log_data"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -3.4420034885406494
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "telemetry-stale-signature"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-data-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_log_data"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ]
+      ],
+      "top_score": 7.790661998661516
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "telemetry-stale-signature"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-data-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ]
+      ],
+      "top_score": -3.861957550048828
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "telemetry-stale-signature"
+      ],
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [
+          "telemetry-stale-signature"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.3333333333333333,
+      "ndcg_at_10": 0.5,
+      "query_id": "holdout-data-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ]
+      ],
+      "top_score": -3.861957550048828
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": false,
+      "intent_id": "holdout-data-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-data-01-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "catalog-active-field-kit"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-data-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_log_data",
+        "long_line"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/lumen.py",
+          485,
+          781
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ]
+      ],
+      "top_score": 2.3374903202056885
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "catalog-active-field-kit"
+      ],
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "catalog-active-field-kit"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-data-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_log_data",
+        "long_line"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/lumen.py",
+          485,
+          781
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ]
+      ],
+      "top_score": 2.3374903202056885
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "catalog-active-field-kit"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-data-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_log_data",
+        "long_line"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": 22.641833701431807
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "catalog-active-field-kit"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-data-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english",
+        "long_line"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ]
+      ],
+      "top_score": -4.008737564086914
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "catalog-active-field-kit"
+      ],
+      "category": "log_data",
+      "hit_at_5": true,
+      "intent_id": "holdout-data-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "catalog-active-field-kit"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-data-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english",
+        "long_line"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ]
+      ],
+      "top_score": -4.008737564086914
+    },
+    {
+      "category": "log_data",
+      "hit_at_5": false,
+      "intent_id": "holdout-data-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-data-02-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english",
+        "long_line"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "field-constructive-review"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": -4.431004524230957
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "field-constructive-review"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "field-constructive-review"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ]
+      ],
+      "top_score": -4.431004524230957
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "field-constructive-review"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-01-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ]
+      ],
+      "top_score": 8.987502657837688
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "field-constructive-review"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": -2.613328218460083
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "field-constructive-review"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "field-constructive-review"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-01-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ]
+      ],
+      "top_score": -2.613328218460083
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "holdout-doc-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-doc-01-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "lantern-recovery-handover"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": 2.71006178855896
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "lantern-recovery-handover"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "lantern-recovery-handover"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": 2.71006178855896
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "lantern-recovery-handover"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-02-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          1164,
+          1601
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ]
+      ],
+      "top_score": 15.043463877013023
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "lantern-recovery-handover"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ]
+      ],
+      "top_score": 0.8377856016159058
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "lantern-recovery-handover"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "lantern-recovery-handover"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-02-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ]
+      ],
+      "top_score": 0.8377856016159058
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "holdout-doc-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-doc-02-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-export-link",
+          "harbor-remove-export"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 0.8262346571285599,
+      "query_id": "holdout-doc-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": 6.576694965362549
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "harbor-export-link",
+        "harbor-remove-export"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-export-link",
+          "harbor-remove-export"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 0.8262346571285599,
+      "query_id": "holdout-doc-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": 6.576694965362549
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-export-link",
+          "harbor-remove-export"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 0.8262346571285599,
+      "query_id": "holdout-doc-03-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ]
+      ],
+      "top_score": 19.71507960001222
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-export-link",
+          "harbor-remove-export"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 0.8262346571285599,
+      "query_id": "holdout-doc-03-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ]
+      ],
+      "top_score": 0.5830689072608948
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "harbor-export-link",
+        "harbor-remove-export"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "harbor-export-link",
+          "harbor-remove-export"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 0.8262346571285599,
+      "query_id": "holdout-doc-03-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ]
+      ],
+      "top_score": 0.5830689072608948
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "holdout-doc-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-doc-03-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "relay-release-notes"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ]
+      ],
+      "top_score": -2.711486339569092
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "relay-release-notes"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "relay-release-notes"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ]
+      ],
+      "top_score": -2.711486339569092
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [
+          "relay-release-notes"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-04-en",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "english_documentation"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ]
+      ],
+      "top_score": 7.362726969807689
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "relay-release-notes"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-04-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ]
+      ],
+      "top_score": -2.6937265396118164
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": 1.0,
+      "candidate_hit": true,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [
+        "relay-release-notes"
+      ],
+      "category": "documentation",
+      "hit_at_5": true,
+      "intent_id": "holdout-doc-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [
+          "relay-release-notes"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 1.0,
+      "ndcg_at_10": 1.0,
+      "query_id": "holdout-doc-04-ko",
+      "result_count": 10,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ]
+      ],
+      "top_score": -2.6937265396118164
+    },
+    {
+      "category": "documentation",
+      "hit_at_5": false,
+      "intent_id": "holdout-doc-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "holdout-doc-04-ko",
+      "result_count": 0,
+      "split": "holdout",
+      "tags": [
+        "fixture_only_holdout",
+        "korean_to_english"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    }
+  ],
+  "public_snapshot_requirement": {
+    "current_public_projects": 2,
+    "current_public_snapshot_intents": 10,
+    "method": "Ten pre-existing holdout code intent IDs were replaced before final holdout measurement with verbatim contiguous excerpts from immutable commits. No development records or product implementation contain answer keys.",
+    "required_distinct_public_projects": 2,
+    "required_minimum_holdout_intents": 10,
+    "status": "fulfilled"
+  },
+  "record_type": "evaluation_summary",
+  "schema_version": 1,
+  "selected_splits": [
+    "holdout"
+  ]
+}

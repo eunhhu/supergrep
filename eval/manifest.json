@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "corpus_id": "supergrep-v0.1-quality-corpus-2026-09-22",
+  "status": "public_holdout_fulfilled_pending_final_measurement",
+  "created_at": "2026-09-22",
+  "fixture_root": "eval/corpus",
+  "encoding": "UTF-8",
+  "authoring": {
+    "kind": "mixed_self_authored_and_attributed_public_snapshots",
+    "note": "The original fixtures are self-authored. Ten code holdout intents use small, verbatim UTF-8 excerpts from two permissively licensed, immutable public-source snapshots; each is attributed below. ASCII-only files are valid UTF-8."
+  },
+  "label_contract": {
+    "path_base": "eval/corpus",
+    "byte_offsets": "0-based half-open",
+    "line_numbers": "1-based inclusive",
+    "positive_evidence_coverage": 0.5,
+    "relevance_scale": {
+      "0": "judged near miss or no answer for an irrelevant query",
+      "1": "related supporting evidence",
+      "2": "direct answer evidence"
+    },
+    "pairing_rule": "English and Korean variants of one intent share a split and immutable evidence labels."
+  },
+  "intent_counts": {
+    "relevant_intents": 40,
+    "relevant_query_records": 80,
+    "irrelevant_intents": 5,
+    "irrelevant_query_records": 10,
+    "languages": {
+      "en": 45,
+      "ko": 45
+    },
+    "relevant_categories": {
+      "code": 20,
+      "configuration": 8,
+      "documentation": 8,
+      "log_data": 4
+    }
+  },
+  "splits": {
+    "development": {
+      "intent_count": 20,
+      "query_record_count": 40,
+      "category_intents": {
+        "code": 10,
+        "configuration": 4,
+        "documentation": 4,
+        "log_data": 2
+      },
+      "permitted_use": "model/profile, tokenization, and candidate-policy development only"
+    },
+    "holdout": {
+      "intent_count": 20,
+      "query_record_count": 40,
+      "category_intents": {
+        "code": 10,
+        "configuration": 4,
+        "documentation": 4,
+        "log_data": 2
+      },
+      "permitted_use": "final measurement only after the development decisions are frozen",
+      "current_source_kind": "10 immutable public-source code intents plus 10 self-authored configuration, documentation, and log/data intents",
+      "public_snapshot_intent_count": 10
+    },
+    "irrelevant": {
+      "intent_count": 5,
+      "query_record_count": 10,
+      "purpose": "record score distributions only; do not turn this set into an uncalibrated no-result threshold"
+    }
+  },
+  "low_lexical_overlap_intents": [
+    "dev-code-01",
+    "dev-code-02",
+    "dev-code-03",
+    "dev-code-05",
+    "dev-code-07",
+    "dev-code-08",
+    "dev-code-10",
+    "holdout-code-01",
+    "holdout-code-02",
+    "holdout-code-03",
+    "holdout-code-04",
+    "holdout-code-06"
+  ],
+  "fixture_properties": {
+    "neutral_file_names": true,
+    "semantic_decoys": true,
+    "duplicate_and_negative_judgments": true,
+    "unicode_examples": [
+      "handbook/field.md",
+      "service/opal.rs",
+      "service/sable.rb"
+    ],
+    "long_line": {
+      "path": "records/catalog.jsonl",
+      "line": 1,
+      "description": "A 431-byte JSONL record for long-line chunking coverage."
+    }
+  },
+  "public_snapshot_requirement": {
+    "status": "fulfilled",
+    "required_minimum_holdout_intents": 10,
+    "required_distinct_public_projects": 2,
+    "current_public_snapshot_intents": 10,
+    "current_public_projects": 2,
+    "method": "Ten pre-existing holdout code intent IDs were replaced before final holdout measurement with verbatim contiguous excerpts from immutable commits. No development records or product implementation contain answer keys."
+  },
+  "public_snapshots": [
+    {"intent_id":"holdout-code-01","project":"serde_json","repository_url":"https://github.com/serde-rs/json","commit":"afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e","license":"MIT OR Apache-2.0","license_urls":["https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-MIT","https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-APACHE"],"original_path":"src/de.rs","original_url":"https://raw.githubusercontent.com/serde-rs/json/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/src/de.rs","original_line_start":142,"original_line_end":151,"local_fixture_path":"public/serde_json/de-end.rs","local_sha256":"c720b61ea1666fdb59fc311075eca61b2848d3fb4d0269bbbf338ea8ee9bea8b","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-02","project":"serde_json","repository_url":"https://github.com/serde-rs/json","commit":"afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e","license":"MIT OR Apache-2.0","license_urls":["https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-MIT","https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-APACHE"],"original_path":"src/de.rs","original_url":"https://raw.githubusercontent.com/serde-rs/json/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/src/de.rs","original_line_start":213,"original_line_end":217,"local_fixture_path":"public/serde_json/de-recursion-limit.rs","local_sha256":"2a7d99f983d4910d1f3e1d072f8ed8a340f5bf9c7c00b451822984445b7dcc2a","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-03","project":"serde_json","repository_url":"https://github.com/serde-rs/json","commit":"afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e","license":"MIT OR Apache-2.0","license_urls":["https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-MIT","https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-APACHE"],"original_path":"src/error.rs","original_url":"https://raw.githubusercontent.com/serde-rs/json/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/src/error.rs","original_line_start":48,"original_line_end":81,"local_fixture_path":"public/serde_json/error-classify.rs","local_sha256":"d41e216e9f6ee651bd23512a8e94ab120f6fa600955d3f47aaf9e919a4b11fe8","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-04","project":"serde_json","repository_url":"https://github.com/serde-rs/json","commit":"afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e","license":"MIT OR Apache-2.0","license_urls":["https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-MIT","https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-APACHE"],"original_path":"src/error.rs","original_url":"https://raw.githubusercontent.com/serde-rs/json/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/src/error.rs","original_line_start":105,"original_line_end":112,"local_fixture_path":"public/serde_json/error-eof.rs","local_sha256":"36c66bed6d8ea0e98b096cd496b8d309892026060d205d497c6061dd8d3c288a","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-05","project":"serde_json","repository_url":"https://github.com/serde-rs/json","commit":"afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e","license":"MIT OR Apache-2.0","license_urls":["https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-MIT","https://github.com/serde-rs/json/blob/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/LICENSE-APACHE"],"original_path":"src/error.rs","original_url":"https://raw.githubusercontent.com/serde-rs/json/afdf6fc67247dd7fa4fcde1381e6ecc6bcc7a30e/src/error.rs","original_line_start":154,"original_line_end":161,"local_fixture_path":"public/serde_json/error-io-kind.rs","local_sha256":"c5998511886b0d7a04c97918fb6e6fde2ab028b2158f282e1fe5f0051f1046f1","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-06","project":"ripgrep","repository_url":"https://github.com/BurntSushi/ripgrep","commit":"3fce3b5bb0236da2df6d99672afb8a719642eca7","license":"Unlicense OR MIT","license_urls":["https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/COPYING","https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/LICENSE-MIT"],"original_path":"crates/ignore/src/walk.rs","original_url":"https://raw.githubusercontent.com/BurntSushi/ripgrep/3fce3b5bb0236da2df6d99672afb8a719642eca7/crates/ignore/src/walk.rs","original_line_start":727,"original_line_end":739,"local_fixture_path":"public/ripgrep/walk-max-depth.rs","local_sha256":"9cfb1d1ba7d969ef702d445619009c40399fc8ee2882bc319d4c7f272850ade4","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-07","project":"ripgrep","repository_url":"https://github.com/BurntSushi/ripgrep","commit":"3fce3b5bb0236da2df6d99672afb8a719642eca7","license":"Unlicense OR MIT","license_urls":["https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/COPYING","https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/LICENSE-MIT"],"original_path":"crates/ignore/src/walk.rs","original_url":"https://raw.githubusercontent.com/BurntSushi/ripgrep/3fce3b5bb0236da2df6d99672afb8a719642eca7/crates/ignore/src/walk.rs","original_line_start":871,"original_line_end":877,"local_fixture_path":"public/ripgrep/walk-hidden.rs","local_sha256":"29a2099bf446d9e594fa5552fafad967b1c732b1781347ba7e45fe04a34ee6e9","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-08","project":"ripgrep","repository_url":"https://github.com/BurntSushi/ripgrep","commit":"3fce3b5bb0236da2df6d99672afb8a719642eca7","license":"Unlicense OR MIT","license_urls":["https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/COPYING","https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/LICENSE-MIT"],"original_path":"crates/ignore/src/walk.rs","original_url":"https://raw.githubusercontent.com/BurntSushi/ripgrep/3fce3b5bb0236da2df6d99672afb8a719642eca7/crates/ignore/src/walk.rs","original_line_start":1000,"original_line_end":1011,"local_fixture_path":"public/ripgrep/walk-same-filesystem.rs","local_sha256":"ed88d5d9a354e83d400fdd400bbe319b55b3307c6e349b104d9e6f6301b48fe9","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-09","project":"ripgrep","repository_url":"https://github.com/BurntSushi/ripgrep","commit":"3fce3b5bb0236da2df6d99672afb8a719642eca7","license":"Unlicense OR MIT","license_urls":["https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/COPYING","https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/LICENSE-MIT"],"original_path":"crates/ignore/src/walk.rs","original_url":"https://raw.githubusercontent.com/BurntSushi/ripgrep/3fce3b5bb0236da2df6d99672afb8a719642eca7/crates/ignore/src/walk.rs","original_line_start":2061,"original_line_end":2083,"local_fixture_path":"public/ripgrep/walk-skip-filesize.rs","local_sha256":"d829e6332b16445fa3c49f3b8778c669fffb51189740d8214828f6f187cb72f9","extraction":"verbatim contiguous UTF-8 lines"},
+    {"intent_id":"holdout-code-10","project":"ripgrep","repository_url":"https://github.com/BurntSushi/ripgrep","commit":"3fce3b5bb0236da2df6d99672afb8a719642eca7","license":"Unlicense OR MIT","license_urls":["https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/COPYING","https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/LICENSE-MIT"],"original_path":"crates/ignore/src/gitignore.rs","original_url":"https://raw.githubusercontent.com/BurntSushi/ripgrep/3fce3b5bb0236da2df6d99672afb8a719642eca7/crates/ignore/src/gitignore.rs","original_line_start":467,"original_line_end":520,"local_fixture_path":"public/ripgrep/gitignore-add-line.rs","local_sha256":"3ab601ad7bb484acd60c98657bd3f7dd090bffef96465aaaf18ff0fb78717162","extraction":"verbatim contiguous UTF-8 lines"}
+  ],
+  "fixture_inventory": [
+    {"path": "config/atlas.ini", "sha256": "d6ff21f0d4c69ab3fadbdad6f73689763861a06e52ab437d43897cadb54445e8"},
+    {"path": "config/copper.toml", "sha256": "5defd57615f305300cdb3cc6c115f17fcd78fd6ada66babc7939ff26755e8107"},
+    {"path": "config/fern.yml", "sha256": "685bb389c12f91cf42015053e5b2860e9f46c5f781dc17e3d44cbd42feb4857a"},
+    {"path": "config/harbor.json", "sha256": "56bdc68c9382b743c2929173867b80d38c5b2ad033361d9ba1717d29b9a4c438"},
+    {"path": "handbook/field.md", "sha256": "60321f815c3b3f7de51fc7d8600cdb0bb06c7ca2d3533db94969481483d5469c"},
+    {"path": "handbook/harbor.md", "sha256": "ffceac88e8035662a4a9567fe9254c9261a43c1912ba632e1a2dea36cf05bcc2"},
+    {"path": "handbook/lantern.md", "sha256": "d925616caf7253fbb96c861880e5525ba97930d01087f24b38c54a11b3f3e5a6"},
+    {"path": "handbook/relay.md", "sha256": "f67928eac7c577a641c250fb7747fb3855d30fb5130dbcf2acea00af3b31cba2"},
+    {"path": "records/catalog.jsonl", "sha256": "ec32e51ee74d9118b578c202f86ef84771ab3aa645c7f7b4e932672de43512ed"},
+    {"path": "records/ledger.csv", "sha256": "2a458892e8cd1919e64825112e679f7b0f155b2576e56ebd2d502b75c5e3953b"},
+    {"path": "records/telemetry.log", "sha256": "78ca63b35619f94a9b3bd6930625a59e68e9039b7c72b943c220cbe4e445f5ad"},
+    {"path": "public/ripgrep/gitignore-add-line.rs", "sha256": "3ab601ad7bb484acd60c98657bd3f7dd090bffef96465aaaf18ff0fb78717162"},
+    {"path": "public/ripgrep/walk-hidden.rs", "sha256": "29a2099bf446d9e594fa5552fafad967b1c732b1781347ba7e45fe04a34ee6e9"},
+    {"path": "public/ripgrep/walk-max-depth.rs", "sha256": "9cfb1d1ba7d969ef702d445619009c40399fc8ee2882bc319d4c7f272850ade4"},
+    {"path": "public/ripgrep/walk-same-filesystem.rs", "sha256": "ed88d5d9a354e83d400fdd400bbe319b55b3307c6e349b104d9e6f6301b48fe9"},
+    {"path": "public/ripgrep/walk-skip-filesize.rs", "sha256": "d829e6332b16445fa3c49f3b8778c669fffb51189740d8214828f6f187cb72f9"},
+    {"path": "public/serde_json/de-end.rs", "sha256": "c720b61ea1666fdb59fc311075eca61b2848d3fb4d0269bbbf338ea8ee9bea8b"},
+    {"path": "public/serde_json/de-recursion-limit.rs", "sha256": "2a7d99f983d4910d1f3e1d072f8ed8a340f5bf9c7c00b451822984445b7dcc2a"},
+    {"path": "public/serde_json/error-classify.rs", "sha256": "d41e216e9f6ee651bd23512a8e94ab120f6fa600955d3f47aaf9e919a4b11fe8"},
+    {"path": "public/serde_json/error-eof.rs", "sha256": "36c66bed6d8ea0e98b096cd496b8d309892026060d205d497c6061dd8d3c288a"},
+    {"path": "public/serde_json/error-io-kind.rs", "sha256": "c5998511886b0d7a04c97918fb6e6fde2ab028b2158f282e1fe5f0051f1046f1"},
+    {"path": "service/cinder.ts", "sha256": "c7a212ad2532486ab79446e6b0c018d9f1f703a75445b5c7be8b99bfc93d12dc"},
+    {"path": "service/ember.rs", "sha256": "78a694f86b7c2833c8a72c2dad4e76a6e6a9e481c0039fb5055221c1b5ed2a44"},
+    {"path": "service/lumen.py", "sha256": "2e8b8ae4846ac8b7bd1d7f1e3a03bd53442907c1c7d341225f8f018ce9a3ddda"},
+    {"path": "service/opal.rs", "sha256": "f5be1757ce63933d3e011eb3bbc2a0a7ad8a25a19354f39b72e0f81b74867600"},
+    {"path": "service/pine.kt", "sha256": "bddaba97759387df983819de4212ba63c2116304fdb33e9e070944e41dd3511a"},
+    {"path": "service/river.go", "sha256": "f2626c99023243f2286e624ea608d8f1ce63819a164b023764bd46967f30a143"},
+    {"path": "service/sable.rb", "sha256": "634a0b356c20aca962945fd59d2642ce7a7a26e2a4f966bd6836baeb8e3ed17a"}
+  ]
+}

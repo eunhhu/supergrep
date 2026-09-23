@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.13s
+     Running `target/debug/examples/s0_compare --model .supergrep-dev-models/quality-multilingual/ee64367e35a2db0da46bb6497e13a18f8bd585cb/model.onnx --tokenizer .supergrep-dev-models/quality-multilingual/ee64367e35a2db0da46bb6497e13a18f8bd585cb/tokenizer.json --runtime .supergrep-dev-runtime/onnxruntime-linux-aarch64-1.20.0/lib/libonnxruntime.so.1.20.0 --split development --batch-size 1 --threads 1 --max-pair-tokens 256 --max-query-tokens 64 --pad-id 1 --optimization level1`

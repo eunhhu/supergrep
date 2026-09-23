@@ -1,0 +1,2401 @@
+{
+  "definition_status": "public_holdout_fulfilled_pending_final_measurement",
+  "fast_deep_comparison": {
+    "deep_minus_fast_hit_at_5": null,
+    "query_pair_count": 0,
+    "top10_intersection_mean": null,
+    "top10_jaccard_mean": null
+  },
+  "groups": {
+    "by_category": {
+      "irrelevant": {
+        "deep": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 0,
+              "max": null,
+              "median": null,
+              "min": null,
+              "p95": null
+            },
+            "evidence_recall_macro": null,
+            "hit_rate": null,
+            "query_count": 0
+          },
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "lexical": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        }
+      }
+    },
+    "by_language": {
+      "en": {
+        "deep": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 0,
+              "max": null,
+              "median": null,
+              "min": null,
+              "p95": null
+            },
+            "evidence_recall_macro": null,
+            "hit_rate": null,
+            "query_count": 0
+          },
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "lexical": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        }
+      },
+      "ko": {
+        "deep": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 0,
+              "max": null,
+              "median": null,
+              "min": null,
+              "p95": null
+            },
+            "evidence_recall_macro": null,
+            "hit_rate": null,
+            "query_count": 0
+          },
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "lexical": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        }
+      }
+    },
+    "by_split": {
+      "irrelevant": {
+        "deep": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 0,
+              "max": null,
+              "median": null,
+              "min": null,
+              "p95": null
+            },
+            "evidence_recall_macro": null,
+            "hit_rate": null,
+            "query_count": 0
+          },
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "lexical": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        }
+      }
+    },
+    "by_tag": {
+      "negative": {
+        "deep": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "fast": {
+          "candidate_coverage": {
+            "candidate_count": {
+              "count": 0,
+              "max": null,
+              "median": null,
+              "min": null,
+              "p95": null
+            },
+            "evidence_recall_macro": null,
+            "hit_rate": null,
+            "query_count": 0
+          },
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        },
+        "lexical": {
+          "hit_at_5": null,
+          "mrr_at_10": null,
+          "ndcg_at_10": null,
+          "query_count": 0
+        }
+      }
+    }
+  },
+  "irrelevant_score_distribution": {
+    "deep": {
+      "note": "Descriptive only; no calibrated no-result threshold is inferred.",
+      "query_count": 10,
+      "top_result_score_distribution": {
+        "count": 10,
+        "max": -3.5654494762420654,
+        "median": -5.652375936508179,
+        "min": -7.988404273986816,
+        "p95": -3.696889734268189
+      }
+    },
+    "fast": {
+      "note": "Descriptive only; no calibrated no-result threshold is inferred.",
+      "query_count": 10,
+      "top_result_score_distribution": {
+        "count": 10,
+        "max": -3.5654494762420654,
+        "median": -5.652375936508179,
+        "min": -7.988404273986816,
+        "p95": -3.696889734268189
+      }
+    },
+    "lexical": {
+      "note": "Descriptive only; no calibrated no-result threshold is inferred.",
+      "query_count": 10,
+      "top_result_score_distribution": {
+        "count": 5,
+        "max": 8.420745630335254,
+        "median": 5.393418212625336,
+        "min": 3.79359214135128,
+        "p95": 7.990290350461347
+      }
+    }
+  },
+  "modes": {
+    "deep": {
+      "hit_at_5": null,
+      "mrr_at_10": null,
+      "ndcg_at_10": null,
+      "query_count": 0
+    },
+    "fast": {
+      "candidate_coverage": {
+        "candidate_count": {
+          "count": 0,
+          "max": null,
+          "median": null,
+          "min": null,
+          "p95": null
+        },
+        "evidence_recall_macro": null,
+        "hit_rate": null,
+        "query_count": 0
+      },
+      "hit_at_5": null,
+      "mrr_at_10": null,
+      "ndcg_at_10": null,
+      "query_count": 0
+    },
+    "lexical": {
+      "hit_at_5": null,
+      "mrr_at_10": null,
+      "ndcg_at_10": null,
+      "query_count": 0
+    }
+  },
+  "per_query": [
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-01-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": -7.31894588470459
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-01-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ]
+      ],
+      "top_score": -7.31894588470459
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-01",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-01-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "config/copper.toml",
+          0,
+          161
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "service/lumen.py",
+          485,
+          781
+        ]
+      ],
+      "top_score": 4.269306224168506
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-01-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -5.484687805175781
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-01-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "public/serde_json/de-recursion-limit.rs",
+          0,
+          202
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ]
+      ],
+      "top_score": -5.484687805175781
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-01",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-01-ko",
+      "result_count": 0,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-02-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ]
+      ],
+      "top_score": -3.857538938522339
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-02-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ]
+      ],
+      "top_score": -3.857538938522339
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-02",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-02-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ]
+      ],
+      "top_score": 6.268469230965719
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-02-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ]
+      ],
+      "top_score": -3.5654494762420654
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-02-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          0,
+          557
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ]
+      ],
+      "top_score": -3.5654494762420654
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-02",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-02-ko",
+      "result_count": 0,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-03-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -5.820064067840576
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-03-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ]
+      ],
+      "top_score": -5.820064067840576
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-03",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-03-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/walk-same-filesystem.rs",
+          0,
+          571
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/sable.rb",
+          0,
+          301
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ],
+        [
+          "records/catalog.jsonl",
+          0,
+          533
+        ]
+      ],
+      "top_score": 8.420745630335254
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-03-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ]
+      ],
+      "top_score": -4.9350104331970215
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-03-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ]
+      ],
+      "top_score": -4.9350104331970215
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-03",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-03-ko",
+      "result_count": 0,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-04-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ]
+      ],
+      "top_score": -6.138998508453369
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-04-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/ember.rs",
+          367,
+          842
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/atlas.ini",
+          0,
+          161
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ]
+      ],
+      "top_score": -6.138998508453369
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-04",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-04-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/cinder.ts",
+          0,
+          580
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "public/serde_json/error-classify.rs",
+          0,
+          705
+        ],
+        [
+          "service/river.go",
+          0,
+          444
+        ],
+        [
+          "service/pine.kt",
+          0,
+          783
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "records/telemetry.log",
+          0,
+          493
+        ]
+      ],
+      "top_score": 3.79359214135128
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-04-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ]
+      ],
+      "top_score": -4.149847984313965
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-04-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1464,
+          2014
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          489,
+          1091
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "records/ledger.csv",
+          0,
+          237
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "service/ember.rs",
+          0,
+          481
+        ],
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ]
+      ],
+      "top_score": -4.149847984313965
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-04",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-04-ko",
+      "result_count": 0,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-05",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-05-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -7.554017066955566
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-05",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-05-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "config/harbor.json",
+          0,
+          254
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "service/cinder.ts",
+          480,
+          681
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/walk-skip-filesize.rs",
+          0,
+          554
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -7.554017066955566
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-05",
+      "language": "en",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-05-en",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          1940,
+          2203
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "handbook/lantern.md",
+          0,
+          499
+        ],
+        [
+          "handbook/harbor.md",
+          0,
+          512
+        ],
+        [
+          "service/lumen.py",
+          0,
+          583
+        ],
+        [
+          "handbook/field.md",
+          0,
+          588
+        ],
+        [
+          "service/lumen.py",
+          485,
+          781
+        ],
+        [
+          "handbook/relay.md",
+          0,
+          496
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ]
+      ],
+      "top_score": 5.393418212625336
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "deep",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-05-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -7.988404273986816
+    },
+    {
+      "candidate_count": 40,
+      "candidate_evidence_recall": null,
+      "candidate_hit": false,
+      "candidate_limit": 128,
+      "candidate_matched_evidence": [],
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "mode": "fast",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-05-ko",
+      "result_count": 10,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [
+        [
+          "public/ripgrep/walk-max-depth.rs",
+          0,
+          420
+        ],
+        [
+          "service/opal.rs",
+          0,
+          297
+        ],
+        [
+          "config/fern.yml",
+          0,
+          181
+        ],
+        [
+          "public/serde_json/error-eof.rs",
+          0,
+          327
+        ],
+        [
+          "public/serde_json/de-end.rs",
+          0,
+          485
+        ],
+        [
+          "public/serde_json/error-io-kind.rs",
+          0,
+          225
+        ],
+        [
+          "public/ripgrep/gitignore-add-line.rs",
+          911,
+          1600
+        ],
+        [
+          "service/ember.rs",
+          756,
+          1026
+        ],
+        [
+          "public/ripgrep/walk-hidden.rs",
+          0,
+          201
+        ],
+        [
+          "service/opal.rs",
+          231,
+          525
+        ]
+      ],
+      "top_score": -7.988404273986816
+    },
+    {
+      "category": "irrelevant",
+      "hit_at_5": false,
+      "intent_id": "irrelevant-05",
+      "language": "ko",
+      "matched_evidence_by_rank": [],
+      "mode": "lexical",
+      "mrr_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "query_id": "irrelevant-05-ko",
+      "result_count": 0,
+      "split": "irrelevant",
+      "tags": [
+        "negative"
+      ],
+      "top10_chunk_keys": [],
+      "top_score": null
+    }
+  ],
+  "public_snapshot_requirement": {
+    "current_public_projects": 2,
+    "current_public_snapshot_intents": 10,
+    "method": "Ten pre-existing holdout code intent IDs were replaced before final holdout measurement with verbatim contiguous excerpts from immutable commits. No development records or product implementation contain answer keys.",
+    "required_distinct_public_projects": 2,
+    "required_minimum_holdout_intents": 10,
+    "status": "fulfilled"
+  },
+  "record_type": "evaluation_summary",
+  "schema_version": 1,
+  "selected_splits": [
+    "irrelevant"
+  ]
+}

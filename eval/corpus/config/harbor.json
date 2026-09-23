@@ -1,0 +1,13 @@
+{
+  "targets": {
+    "preview": "https://preview.example.test/api",
+    "production": "https://api.example.test/v1"
+  },
+  "telemetry": {
+    "include_trace_context": true,
+    "sampling_percent": 10
+  },
+  "mail": {
+    "from_name": "Field Notes"
+  }
+}

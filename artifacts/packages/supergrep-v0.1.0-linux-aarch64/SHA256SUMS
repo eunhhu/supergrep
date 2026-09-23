@@ -1,0 +1,13 @@
+supergrep v0.1.0 Linux ARM64 local bundle
+Required runtime: ONNX Runtime 1.20.0 (dynamic loading)
+Model files are intentionally not included; use model download explicitly.
+
+Bundle contents and SHA-256:
+f6d36268dd1b2d689aa258296f58e754b847ab67c069b21f8646e5b60d83b37b  ./README.md
+fd7ec997121748668da52a0ec76d1aa6a9096dbd598cad743d56a4fa37ee9f97  ./bin/runtime/libonnxruntime.so.1.20.0
+d93c6b9016eb23a46b7ace5a6c7d56139fdf11bfe0228e93801de758707dee2b  ./bin/runtime/libonnxruntime_providers_shared.so
+0f57cd760edfe4a2bc17f7f6e34b0c66c1e3e9bdb1e96671f8b15a0cb3e07cad  ./bin/supergrep
+2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c  ./licenses/onnxruntime-MIT.txt
+cf7342f7ba482ef715ae58f5f497a8d3564fa255164175aea324cd293c5701a0  ./licenses/onnxruntime-third-party-notices.txt
+cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30  ./licenses/supergrep-Apache-2.0.txt
+6988c623d0eb8f8b25148b809e9ef5c34b00c3dca0aa8d39e5976fdffdcc6fac  ./models-registry.toml

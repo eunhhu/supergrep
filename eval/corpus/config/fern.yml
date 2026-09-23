@@ -1,0 +1,11 @@
+storage:
+  expire_completed_after_days: 31
+  retain_failed_after_days: 7
+
+scanner:
+  ignore_patterns:
+    - "*.scratch"
+    - ".local-notes/**"
+
+notices:
+  repeat_after_minutes: 20

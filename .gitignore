@@ -1,0 +1,7 @@
+/target/
+/.supergrep-dev-models/
+/.supergrep-dev-runtime/
+/artifacts/**/*.raw
+/artifacts/**/*.log
+/artifacts/**/*.rss
+/artifacts/**/*.time

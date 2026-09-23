@@ -1,0 +1,4942 @@
+{
+  "schema_version": 1,
+  "record_type": "s0_evidence_pool_comparison",
+  "split": "development",
+  "score_kind": "relevance_logit",
+  "model_path": ".supergrep-dev-models/compact-multilingual/1427fd652930e4ba29e8149678df786c240d8825/model.onnx",
+  "graph_inputs": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "graph_outputs": [
+    "logits"
+  ],
+  "candidate_count": 22,
+  "model_load_ms": 3167,
+  "total_scoring_ms": 51343,
+  "metrics": {
+    "all": {
+      "query_count": 40,
+      "hit_at_5": 0.9,
+      "mrr_at_10": 0.8181944444444443
+    },
+    "language:en": {
+      "query_count": 20,
+      "hit_at_5": 1.0,
+      "mrr_at_10": 0.925
+    },
+    "language:ko": {
+      "query_count": 20,
+      "hit_at_5": 0.8,
+      "mrr_at_10": 0.7113888888888888
+    },
+    "tag:korean_to_english": {
+      "query_count": 20,
+      "hit_at_5": 0.8,
+      "mrr_at_10": 0.7113888888888888
+    }
+  },
+  "per_query": [
+    {
+      "query_id": "dev-code-01-en",
+      "intent_id": "dev-code-01",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 0.5,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.5494747,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.955859,
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.4315467,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -7.4565625,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -7.6826835,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -7.8756065,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.8929696,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.2917185,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -8.439638,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -8.479567,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-01-ko",
+      "intent_id": "dev-code-01",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 0.2,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.9094095,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -5.243503,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.8473887,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.894695,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.1367598,
+          "relevant": true
+        },
+        {
+          "rank": 6,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.6066813,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -6.756976,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.957197,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.2608376,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.6311603,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-02-en",
+      "intent_id": "dev-code-02",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -1.1131474,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.0828524,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.300333,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.4677954,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "cinder-atomic-replace",
+          "path": "service/cinder.ts",
+          "start_byte": 55,
+          "end_byte": 278,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.0812693,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -7.1684356,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.200111,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.437541,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -7.459903,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.4749837,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-02-ko",
+      "intent_id": "dev-code-02",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 0.25,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -3.8689966,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.8811398,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.3549533,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -4.477296,
+          "relevant": true
+        },
+        {
+          "rank": 5,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -4.7273116,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.0332136,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -5.3804493,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.5769963,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.7168756,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.7322764,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-03-en",
+      "intent_id": "dev-code-03",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -0.11426088,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.660249,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.091389,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.272179,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -8.439525,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.532816,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -8.580954,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -8.647334,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -8.656202,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.692071,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-03-ko",
+      "intent_id": "dev-code-03",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -3.0960166,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -4.089329,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.9437795,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.238097,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -6.4735146,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.4882536,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.549069,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.7300615,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.825966,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -7.0278335,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-04-en",
+      "intent_id": "dev-code-04",
+      "language": "en",
+      "tags": [
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.5782127,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.5362763,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.746903,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.7652836,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -6.9944415,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.5550213,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.702838,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.833058,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -8.154925,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -8.213112,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-04-ko",
+      "intent_id": "dev-code-04",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": false,
+      "reciprocal_rank_at_10": 0.16666666666666666,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.325539,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -4.835616,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.003796,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.6425567,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.792903,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.915117,
+          "relevant": true
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -6.0991035,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.38496,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -6.412675,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -6.4276385,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-05-en",
+      "intent_id": "dev-code-05",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "cinder-atomic-replace",
+          "path": "service/cinder.ts",
+          "start_byte": 55,
+          "end_byte": 278,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.2914696,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.451687,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.7599993,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.8572083,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -6.5318365,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.5524015,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -6.6344047,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -6.7114677,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -6.8732443,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.103315,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-05-ko",
+      "intent_id": "dev-code-05",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "cinder-atomic-replace",
+          "path": "service/cinder.ts",
+          "start_byte": 55,
+          "end_byte": 278,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.596256,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -3.7959323,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.5705657,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -4.5901284,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.975935,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.1639533,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.3178773,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.3658047,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.404365,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.4477034,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-06-en",
+      "intent_id": "dev-code-06",
+      "language": "en",
+      "tags": [
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.2087126,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -4.492324,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.08558,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.3243012,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.3270206,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.657297,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.884506,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.005577,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -6.146665,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.168381,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-06-ko",
+      "intent_id": "dev-code-06",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": false,
+      "reciprocal_rank_at_10": 0.1111111111111111,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.9089856,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.6110163,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -6.351829,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": -6.4351497,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -6.7313247,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -6.7374997,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -6.8510046,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.9384775,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.9868407,
+          "relevant": true
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.022478,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-07-en",
+      "intent_id": "dev-code-07",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": 0.4546903,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.449549,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.8137813,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -7.2395105,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.2900248,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.449809,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.480009,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.486579,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.530516,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.90026,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-07-ko",
+      "intent_id": "dev-code-07",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -1.1793085,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.369852,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.408417,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -5.4749994,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.6012163,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.0064483,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -6.0431376,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.0786004,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -6.174763,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -6.1844506,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-08-en",
+      "intent_id": "dev-code-08",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.924434,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -6.2867894,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.9082956,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.322268,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.344421,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -7.5836806,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.6124043,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -8.068215,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.109754,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -8.302993,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-08-ko",
+      "intent_id": "dev-code-08",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": false,
+      "reciprocal_rank_at_10": 0.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.6572685,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -6.028323,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.194021,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -6.4019284,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.412692,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.524307,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -6.5335317,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.814223,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -7.05116,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -7.0618997,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-09-en",
+      "intent_id": "dev-code-09",
+      "language": "en",
+      "tags": [
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -4.5573587,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.253832,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.171025,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.681169,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -6.8504395,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -6.8602448,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.937401,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.067195,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -7.0688195,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.163864,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-09-ko",
+      "intent_id": "dev-code-09",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": false,
+      "reciprocal_rank_at_10": 0.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.5277333,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.9725146,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.1407576,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.387363,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.6343055,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -5.745406,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.7833915,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.862783,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -5.879909,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -5.9555383,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-10-en",
+      "intent_id": "dev-code-10",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_code"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -5.4589224,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.518257,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -6.6248884,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.746503,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.9554625,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.27446,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -7.39948,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -7.4166565,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.484215,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.8743806,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-code-10-ko",
+      "intent_id": "dev-code-10",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -3.4235868,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -4.330665,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "cinder-atomic-replace",
+          "path": "service/cinder.ts",
+          "start_byte": 55,
+          "end_byte": 278,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.6973424,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.708957,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.0721292,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.24848,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.3473096,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.5400014,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.6366296,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -5.668404,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-01-en",
+      "intent_id": "dev-config-01",
+      "language": "en",
+      "tags": [
+        "english_configuration"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 0.5,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.1774306,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.30567,
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -4.8100743,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.090051,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.369813,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.45516,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -5.9021955,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.943593,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -6.110552,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.1947446,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-01-ko",
+      "intent_id": "dev-config-01",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.5847907,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -4.9981728,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.1491613,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.2378335,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.392537,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.534522,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.6325803,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -5.6697164,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.973797,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.1412873,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-02-en",
+      "intent_id": "dev-config-02",
+      "language": "en",
+      "tags": [
+        "english_configuration"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": 3.7980254,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.5613785,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -7.5180926,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.555136,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.9733334,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -8.321794,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.585796,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.666508,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -8.991345,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -9.06318,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-02-ko",
+      "intent_id": "dev-config-02",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -0.21647295,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.0715117,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.6255684,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.075972,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -5.5146284,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.872452,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.9551473,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -6.258042,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "cinder-atomic-replace",
+          "path": "service/cinder.ts",
+          "start_byte": 55,
+          "end_byte": 278,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.2813797,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": -6.361584,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-03-en",
+      "intent_id": "dev-config-03",
+      "language": "en",
+      "tags": [
+        "english_configuration"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": 2.2928574,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -5.4226017,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.4146996,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.139913,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.554288,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -9.03817,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -9.462797,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -9.654984,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -9.875385,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -9.951237,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-03-ko",
+      "intent_id": "dev-config-03",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -0.7253967,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -4.6035285,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.098179,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.2761807,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.8885326,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.210116,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -7.036596,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.2557845,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -7.828226,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -8.483975,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-04-en",
+      "intent_id": "dev-config-04",
+      "language": "en",
+      "tags": [
+        "english_configuration"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 0.5,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -3.513006,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -3.7875905,
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -4.4085417,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -4.48793,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -4.8590117,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.883674,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.3064685,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.472128,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -5.530212,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.856113,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-config-04-ko",
+      "intent_id": "dev-config-04",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 0.5,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -2.8764286,
+          "relevant": false
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -3.426005,
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -3.9912515,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.6267695,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.8956723,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.9493914,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.959317,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -4.9707255,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -5.1470604,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.2782574,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-01-en",
+      "intent_id": "dev-doc-01",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_documentation"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -0.80296606,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.36602,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.849716,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -6.9834714,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -7.129834,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.139709,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -7.1858306,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": -7.3329134,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.731724,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.7590733,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-01-ko",
+      "intent_id": "dev-doc-01",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -1.6650826,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.7825513,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -5.642292,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.0144258,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.5145364,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "cinder-atomic-replace",
+          "path": "service/cinder.ts",
+          "start_byte": 55,
+          "end_byte": 278,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.5418906,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.890633,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -6.8988314,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "sable-row-order",
+          "path": "service/sable.rb",
+          "start_byte": 0,
+          "end_byte": 94,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.0902925,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -7.116655,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-02-en",
+      "intent_id": "dev-doc-02",
+      "language": "en",
+      "tags": [
+        "english_documentation"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": 8.559917,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.2886825,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -6.798352,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -7.073556,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -7.3643584,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.5432343,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -7.563247,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.6710277,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "harbor-preview-target",
+          "path": "config/harbor.json",
+          "start_byte": 2,
+          "end_byte": 121,
+          "start_line": 2,
+          "end_line": 5,
+          "score": -7.768336,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.790161,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-02-ko",
+      "intent_id": "dev-doc-02",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": 4.728415,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -2.7815506,
+          "relevant": true
+        },
+        {
+          "rank": 3,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.2015755,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -3.6525228,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.9189758,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -4.4396634,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -4.4751954,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -5.1253443,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.3601413,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.3704004,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-03-en",
+      "intent_id": "dev-doc-03",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_documentation"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": 6.010101,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": -8.180292,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -8.658056,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -9.00087,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -9.024318,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-nearby-timeout",
+          "path": "service/ember.rs",
+          "start_byte": 933,
+          "end_byte": 1026,
+          "start_line": 30,
+          "end_line": 32,
+          "score": -9.160886,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -9.263781,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -9.362997,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "pine-stop-outstanding",
+          "path": "service/pine.kt",
+          "start_byte": 313,
+          "end_byte": 441,
+          "start_line": 13,
+          "end_line": 15,
+          "score": -9.376659,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -9.453577,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-03-ko",
+      "intent_id": "dev-doc-03",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": 3.3359783,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.5832586,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -6.931201,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.0918465,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.195838,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.290164,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.6641917,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -7.7433767,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -7.8069677,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -7.8760004,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-04-en",
+      "intent_id": "dev-doc-04",
+      "language": "en",
+      "tags": [
+        "low_lexical_overlap",
+        "english_documentation"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -2.6782696,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.940402,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -7.12539,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.249435,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.4798684,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.523647,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.8522625,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -7.9038043,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.94032,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.989651,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-doc-04-ko",
+      "intent_id": "dev-doc-04",
+      "language": "ko",
+      "tags": [
+        "low_lexical_overlap",
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -0.28796482,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.5367086,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -4.581759,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.603947,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.840421,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -4.957538,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "ember-signin-misses",
+          "path": "service/ember.rs",
+          "start_byte": 305,
+          "end_byte": 480,
+          "start_line": 10,
+          "end_line": 15,
+          "score": -4.9838634,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.0178833,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -5.2709756,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.733133,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-data-01-en",
+      "intent_id": "dev-data-01",
+      "language": "en",
+      "tags": [
+        "english_log_data"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": 2.773332,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -6.081271,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.808736,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -6.810743,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -7.0374517,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -7.3065104,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -7.3603907,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.3614035,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -7.584687,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "field-rollout-reversal",
+          "path": "handbook/field.md",
+          "start_byte": 15,
+          "end_byte": 275,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.588014,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-data-01-ko",
+      "intent_id": "dev-data-01",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": -3.9475207,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -4.2326646,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.4431906,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.6951847,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "relay-callback-signature",
+          "path": "handbook/relay.md",
+          "start_byte": 18,
+          "end_byte": 251,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -4.881411,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -4.9645567,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.2708626,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.278818,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -5.4669433,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "harbor-export-link",
+          "path": "handbook/harbor.md",
+          "start_byte": 246,
+          "end_byte": 429,
+          "start_line": 9,
+          "end_line": 12,
+          "score": -5.640036,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-data-02-en",
+      "intent_id": "dev-data-02",
+      "language": "en",
+      "tags": [
+        "english_log_data"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -0.097895294,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "fern-completed-retention",
+          "path": "config/fern.yml",
+          "start_byte": 0,
+          "end_byte": 73,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -6.031634,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": -6.6656365,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.05887,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "opal-text-blob",
+          "path": "service/opal.rs",
+          "start_byte": 0,
+          "end_byte": 70,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -7.071453,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -7.3291154,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -7.7657094,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -7.8553147,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "ember-shown-header",
+          "path": "service/ember.rs",
+          "start_byte": 481,
+          "end_byte": 712,
+          "start_line": 17,
+          "end_line": 22,
+          "score": -8.01453,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -8.151289,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query_id": "dev-data-02-ko",
+      "intent_id": "dev-data-02",
+      "language": "ko",
+      "tags": [
+        "korean_to_english"
+      ],
+      "hit_at_5": true,
+      "reciprocal_rank_at_10": 1.0,
+      "top_results": [
+        {
+          "rank": 1,
+          "evidence_id": "ledger-duplicate-reversal",
+          "path": "records/ledger.csv",
+          "start_byte": 90,
+          "end_byte": 145,
+          "start_line": 3,
+          "end_line": 3,
+          "score": -3.2478266,
+          "relevant": true
+        },
+        {
+          "rank": 2,
+          "evidence_id": "lantern-outage-escalation",
+          "path": "handbook/lantern.md",
+          "start_byte": 20,
+          "end_byte": 247,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -3.8787215,
+          "relevant": false
+        },
+        {
+          "rank": 3,
+          "evidence_id": "lumen-first-delivery",
+          "path": "service/lumen.py",
+          "start_byte": 29,
+          "end_byte": 267,
+          "start_line": 4,
+          "end_line": 9,
+          "score": -3.900357,
+          "relevant": false
+        },
+        {
+          "rank": 4,
+          "evidence_id": "copper-sensitive-approvals",
+          "path": "config/copper.toml",
+          "start_byte": 0,
+          "end_byte": 75,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -4.2275033,
+          "relevant": false
+        },
+        {
+          "rank": 5,
+          "evidence_id": "atlas-dispatcher",
+          "path": "config/atlas.ini",
+          "start_byte": 0,
+          "end_byte": 50,
+          "start_line": 1,
+          "end_line": 3,
+          "score": -5.4760504,
+          "relevant": false
+        },
+        {
+          "rank": 6,
+          "evidence_id": "lumen-window",
+          "path": "service/lumen.py",
+          "start_byte": 269,
+          "end_byte": 376,
+          "start_line": 12,
+          "end_line": 15,
+          "score": -5.5210915,
+          "relevant": false
+        },
+        {
+          "rank": 7,
+          "evidence_id": "harbor-remove-export",
+          "path": "handbook/harbor.md",
+          "start_byte": 19,
+          "end_byte": 245,
+          "start_line": 3,
+          "end_line": 7,
+          "score": -5.6039515,
+          "relevant": false
+        },
+        {
+          "rank": 8,
+          "evidence_id": "telemetry-delivery-deferred",
+          "path": "records/telemetry.log",
+          "start_byte": 0,
+          "end_byte": 167,
+          "start_line": 1,
+          "end_line": 1,
+          "score": -5.712668,
+          "relevant": false
+        },
+        {
+          "rank": 9,
+          "evidence_id": "river-pass-entry",
+          "path": "service/river.go",
+          "start_byte": 91,
+          "end_byte": 198,
+          "start_line": 10,
+          "end_line": 12,
+          "score": -5.727054,
+          "relevant": false
+        },
+        {
+          "rank": 10,
+          "evidence_id": "ember-wait-after-refusal",
+          "path": "service/ember.rs",
+          "start_byte": 93,
+          "end_byte": 304,
+          "start_line": 4,
+          "end_line": 8,
+          "score": -5.737985,
+          "relevant": false
+        }
+      ]
+    }
+  ],
+  "caveat": "This S0 evidence-pool ranking checks tokenizer/runtime/model behavior on fixed, judged spans. It is not the final chunk-level fast/deep product evaluation."
+}

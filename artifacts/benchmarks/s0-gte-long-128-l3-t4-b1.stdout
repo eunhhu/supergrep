@@ -1,0 +1,14 @@
+model=.supergrep-dev-models/quality-multilingual/ee64367e35a2db0da46bb6497e13a18f8bd585cb/model.onnx
+inputs=["input_ids", "attention_mask", "token_type_ids"]
+outputs=["logits"]
+optimization=Level3
+load_ms=3380
+tokenization_ms=535
+inference_ms=61515
+passage_count=128
+score_batch_size=1
+model_calls=128
+max_sequence_len=246
+rss_kib=827040
+peak_rss_kib=895936
+scores_omitted=128
