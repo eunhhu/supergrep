@@ -54,6 +54,7 @@ def run_once(
     query: str = "retry delay after repeated network refusals",
     query_id: str | None = None,
     timeout_seconds: float = 600,
+    batch_size: int = 1,
 ) -> dict[str, object]:
     command = [
         str(binary),
@@ -69,6 +70,8 @@ def run_once(
         command.append("--deep")
     if max_chunks is not None:
         command.extend(["--max-chunks", str(max_chunks)])
+    if batch_size != 1:
+        command.extend(["--batch-size", str(batch_size)])
 
     started = time.monotonic_ns()
     peak_rss = 0
@@ -187,6 +190,7 @@ def main() -> int:
     parser.add_argument("--queries-file", type=Path, help="JSONL query definitions for distinct-query runs")
     parser.add_argument("--query-split", default="development")
     parser.add_argument("--timeout-seconds", type=float, default=600)
+    parser.add_argument("--batch-size", type=int, default=1)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     if args.runs < 2:
@@ -195,6 +199,8 @@ def main() -> int:
         parser.error("--max-chunks must be at least one")
     if not math.isfinite(args.timeout_seconds) or args.timeout_seconds <= 0:
         parser.error("--timeout-seconds must be a positive finite number")
+    if args.batch_size < 1:
+        parser.error("--batch-size must be at least one")
 
     binary = args.binary.resolve(strict=True)
     corpus = args.corpus.resolve(strict=True)
@@ -221,6 +227,7 @@ def main() -> int:
             run_once(
                 binary, corpus, cache, index, args.deep, args.max_chunks,
                 query=query, query_id=query_id, timeout_seconds=args.timeout_seconds,
+                batch_size=args.batch_size,
             )
         )
 
@@ -231,6 +238,7 @@ def main() -> int:
         "record_type": "cli_benchmark",
         "model_profile": "compact-multilingual",
         "mode": "deep" if args.deep else "fast",
+        "batch_size": args.batch_size,
         "max_chunks": args.max_chunks,
         "query_set": {
             "kind": "jsonl" if args.queries_file else "single_query",
